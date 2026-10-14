@@ -693,3 +693,5 @@ Newest first. Each entry matches a commit on `main`.
 - [ ] Website playground (reuses commands.json and learned.json; port the Brain's matching rules to JS)
 
 <!-- Day 1 milestone completed -->
+
+<!-- native verification log -->
