@@ -607,3 +607,5 @@ extension Hands {
         return nil
     }
 }
+
+// Click synthesis and mouse movement
