@@ -336,3 +336,5 @@ print(failures == 0 ? "All brain checks passed" : "\(failures) failure(s)")
 exit(failures == 0 ? 0 : 1)
 
 // Browser command verification suite
+
+// Performance benchmark checks
