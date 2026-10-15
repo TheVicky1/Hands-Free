@@ -695,3 +695,5 @@ Newest first. Each entry matches a commit on `main`.
 <!-- Day 1 milestone completed -->
 
 <!-- native verification log -->
+
+<!-- web simulator architecture milestone -->
