@@ -1,0 +1,224 @@
+@import 'tailwindcss';
+
+/* Design tokens: the one place. web/DESIGN.md says what each is for. Tailwind's own colours, sizes,
+   radii and shadows are switched off, so nothing outside this block can sneak in.
+   Colours are roles, not paint: these are the dark theme's, and [data-theme='light'] below swaps them. */
+@theme {
+  --color-*: initial;
+  --color-canvas: #08090b; /* page */
+  --color-surface-1: #0e1013; /* panels, bars */
+  --color-surface-2: #15181c; /* inputs, hover */
+  --color-surface-3: #1e2227; /* pressed, selected */
+  --color-raised: #23272d; /* floating: the HUD, menus */
+  --color-line: rgb(242 237 228 / 0.09); /* hairlines */
+  --color-line-strong: rgb(242 237 228 / 0.18);
+  --color-fg: #f2ede4; /* text */
+  --color-fg-2: rgb(242 237 228 / 0.68); /* secondary text */
+  /* labels and hints: the faintest text allowed (4.5:1 on every surface, both themes) */
+  --color-fg-3: rgb(242 237 228 / 0.52);
+  --color-signal: #ffb02e; /* Pilot is acting. Nothing else. */
+  --color-signal-soft: rgb(255 176 46 / 0.14);
+  --color-glow: rgb(242 237 228 / 0.07); /* the pool of light at the top of the page */
+  --color-black: #000; /* only for scrims over pictures (video thumbnails, the player) */
+  --color-white: #fff;
+
+  /* The mock macOS has its own system colours: neutral and graphite like the real one, so the site's amber
+     stays the only accent. Dark appearance here, light below. */
+  --color-os-bar: rgb(22 22 26 / 0.5); /* menu bar, over the wallpaper */
+  --color-os-menu: rgb(36 36 40 / 0.94); /* dropdown menus */
+  --color-os-dock: rgb(40 40 46 / 0.42);
+  --color-os-window: #1d1d1f;
+  --color-os-chrome: #2a2a2d; /* title bars and toolbars */
+  --color-os-sidebar: #242427;
+  --color-os-control: #3a3a3e;
+  --color-os-field: #151517;
+  --color-os-hover: rgb(255 255 255 / 0.07);
+  --color-os-select: rgb(255 255 255 / 0.13);
+  --color-os-line: rgb(255 255 255 / 0.1);
+  --color-os-text: rgb(255 255 255 / 0.9);
+  --color-os-text-2: rgb(235 235 245 / 0.64);
+  --color-os-close: #ff5f57;
+  --color-os-min: #febc2e;
+  --color-os-zoom: #28c840;
+  --color-code-key: #e2dcd0;
+  --color-code-str: #c9a46c;
+  --color-code-num: #8cb8a6;
+
+  --font-*: initial;
+  --font-display: 'Fraunces Variable', ui-serif, Georgia, serif;
+  --font-sans: 'Instrument Sans Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, Menlo, monospace;
+  /* the mock macOS */
+  --font-os: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', system-ui, sans-serif;
+
+  --text-*: initial;
+  --text-display: clamp(2.75rem, 1.35rem + 5.2vw, 6.25rem);
+  --text-display--line-height: 0.98;
+  --text-display--letter-spacing: -0.022em;
+  --text-title: clamp(2.125rem, 1.4rem + 2.8vw, 3.75rem);
+  --text-title--line-height: 1.02;
+  --text-title--letter-spacing: -0.02em;
+  --text-heading: clamp(1.375rem, 1.1rem + 1vw, 1.875rem);
+  --text-heading--line-height: 1.15;
+  --text-heading--letter-spacing: -0.015em;
+  --text-lead: 1.25rem;
+  --text-lead--line-height: 1.5;
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.6;
+  --text-small: 0.9375rem;
+  --text-small--line-height: 1.5;
+  --text-micro: 0.75rem;
+  --text-micro--line-height: 1.4;
+
+  --radius-*: initial;
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --shadow-*: initial;
+  --shadow-window:
+    0 0 0 0.5px rgb(0 0 0 / 0.7), 0 1px 0 0 rgb(255 255 255 / 0.06) inset,
+    0 24px 80px -12px rgb(0 0 0 / 0.65), 0 8px 24px -8px rgb(0 0 0 / 0.5);
+  --shadow-hud: 0 0 0 0.5px rgb(0 0 0 / 0.6), 0 12px 32px -6px rgb(0 0 0 / 0.55);
+  --shadow-signal: 0 0 0 1px rgb(255 176 46 / 0.35), 0 0 28px -4px rgb(255 176 46 / 0.35);
+
+  --ease-*: initial;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --default-transition-duration: 150ms;
+  --default-transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --animate-wave: wave 900ms var(--ease-in-out) infinite alternate;
+  --animate-blink: blink 1.1s steps(1) infinite;
+  --animate-progress: progress 90s linear infinite;
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  @keyframes progress {
+    from {
+      transform: scaleX(0.04);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+  @keyframes wave {
+    from {
+      transform: scaleY(0.25);
+    }
+    to {
+      transform: scaleY(1);
+    }
+  }
+}
+
+/* Motion timings (Framer Motion reads the same numbers from src/motion.ts) */
+:root {
+  color-scheme: dark;
+  --grain: 0.045;
+  /* the mock desktop's wallpaper: dunes at night (light: in the morning) */
+  --wp-sky-1: #070a12;
+  --wp-sky-2: #151c2c;
+  --wp-sky-3: #3b2d29;
+  --wp-sun: #efe6d6;
+  --wp-dune-1: #1f1c22;
+  --wp-dune-2: #17151a;
+  --wp-dune-3: #0e0d11;
+  --wp-edge: rgb(255 214 170 / 0.12);
+  --motion-fast: 150ms; /* hover, press, focus */
+  --motion-base: 220ms; /* HUD, menus, chips */
+  --motion-slow: 300ms; /* windows open and close */
+}
+
+/* Light: the same two colours swapped (ink on paper), a deeper amber that still reads on paper, softer shadows.
+   index.html sets data-theme before the first paint: the saved choice, else the system's. */
+:root[data-theme='light'] {
+  color-scheme: light;
+  --grain: 0.03;
+  --color-canvas: #f4f0e8;
+  --color-surface-1: #fbf9f5;
+  --color-surface-2: #ece7dd;
+  --color-surface-3: #e3ddd1;
+  --color-raised: #ffffff;
+  --color-line: rgb(20 22 26 / 0.1);
+  --color-line-strong: rgb(20 22 26 / 0.2);
+  --color-fg: #14161a;
+  --color-fg-2: rgb(20 22 26 / 0.72);
+  --color-fg-3: rgb(20 22 26 / 0.62);
+  --color-signal: #a85700;
+  --color-signal-soft: rgb(168 87 0 / 0.12);
+  --color-glow: rgb(255 255 255 / 0.75);
+  --color-os-bar: rgb(246 246 248 / 0.6);
+  --color-os-menu: rgb(248 248 250 / 0.96);
+  --color-os-dock: rgb(255 255 255 / 0.4);
+  --color-os-window: #ffffff;
+  --color-os-chrome: #f1f1f3;
+  --color-os-sidebar: #ececef;
+  --color-os-control: #e2e2e6;
+  --color-os-field: #ffffff;
+  --color-os-hover: rgb(0 0 0 / 0.05);
+  --color-os-select: rgb(0 0 0 / 0.09);
+  --color-os-line: rgb(0 0 0 / 0.1);
+  --color-os-text: rgb(0 0 0 / 0.86);
+  --color-os-text-2: rgb(60 60 67 / 0.8);
+  --color-code-key: #1d2733;
+  --color-code-str: #8a5416;
+  --color-code-num: #2c6a5a;
+  --wp-sky-1: #b9c8d8;
+  --wp-sky-2: #e6e0d6;
+  --wp-sky-3: #f2d9bc;
+  --wp-sun: #fff6e6;
+  --wp-dune-1: #dcc29e;
+  --wp-dune-2: #cfae86;
+  --wp-dune-3: #bc966c;
+  --wp-edge: rgb(255 255 255 / 0.35);
+  --shadow-window:
+    0 0 0 0.5px rgb(20 22 26 / 0.14), 0 1px 0 0 rgb(255 255 255 / 0.7) inset,
+    0 28px 70px -20px rgb(70 45 10 / 0.24), 0 8px 20px -10px rgb(70 45 10 / 0.14);
+  --shadow-hud: 0 0 0 0.5px rgb(20 22 26 / 0.12), 0 12px 30px -8px rgb(70 45 10 / 0.22);
+  --shadow-signal: 0 0 0 1px rgb(168 87 0 / 0.35), 0 0 24px -4px rgb(255 176 46 / 0.5);
+}
+
+@layer base {
+  html {
+    background: var(--color-canvas);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    min-height: 100dvh;
+    background: var(--color-canvas);
+    overflow-x: clip;
+  }
+  ::selection {
+    background: var(--color-fg);
+    color: var(--color-canvas);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-fg);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 1ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 1ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Film grain over the landing page: grey fractal noise, drawn once by the browser. */
+@utility grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
