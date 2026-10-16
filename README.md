@@ -25,5 +25,10 @@
 
 <br />
 
+> 🌐 **Live Web Simulator**: Experience Hands-Free Pilot live in your browser at **[https://nohandspilot.vercel.app](https://nohandspilot.vercel.app)**  
+> 🎥 **Video Demo & Walkthrough**: Watch the timed demo script running on live macOS at **[YouTube Walkthrough](https://youtu.be/svUKJ5K3ZRI)**
 
-<!-- Work in progress: docs(readme): scaffold quick start prerequisites for native macOS and web -->
+<br />
+
+
+<!-- Work in progress: docs(readme): add initial local setup guide for Swift pilot app -->
