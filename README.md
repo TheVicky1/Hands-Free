@@ -13,5 +13,6 @@
 
 [![Live App](https://img.shields.io/badge/Live_Demo-nohandspilot.vercel.app-000000.svg?style=for-the-badge&logo=vercel&logoColor=white&color=000000)](https://nohandspilot.vercel.app)
 [![Video Walkthrough](https://img.shields.io/badge/Video_Demo-YouTube_svUKJ5K3ZRI-FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/svUKJ5K3ZRI)
+[![License: MIT](https://img.shields.io/badge/License-MIT-d4af37.svg?style=for-the-badge)](LICENSE)
 
-<!-- Work in progress: docs(readme): add live deployment and video demo showcase links -->
+<!-- Work in progress: docs(readme): author About section detailing voice-driven execution philosophy -->
