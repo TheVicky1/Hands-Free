@@ -1,0 +1,86 @@
+{
+  "exportedAt": "2026-10-31T06:21:21+05:30",
+  "firstDay": "2026-10-28",
+  "lastDay": "2026-10-31",
+  "commands": 1140,
+  "ok": 802,
+  "failed": 338,
+  "chains": 59,
+  "sources": {
+    "bar": 2,
+    "wispr": 1010,
+    "voice": 128
+  },
+  "days": [
+    {
+      "date": "2026-10-28",
+      "commands": 385,
+      "ok": 247
+    },
+    {
+      "date": "2026-10-29",
+      "commands": 166,
+      "ok": 103
+    },
+    {
+      "date": "2026-10-30",
+      "commands": 86,
+      "ok": 47
+    },
+    {
+      "date": "2026-10-31",
+      "commands": 503,
+      "ok": 405
+    }
+  ],
+  "top": [
+    {
+      "id": "click",
+      "count": 260
+    },
+    {
+      "id": "open_app",
+      "count": 84
+    },
+    {
+      "id": "chrome_search",
+      "count": 67
+    },
+    {
+      "id": "scroll_down",
+      "count": 58
+    },
+    {
+      "id": "new_tab",
+      "count": 52
+    },
+    {
+      "id": "scroll_up",
+      "count": 43
+    },
+    {
+      "id": "quit_app",
+      "count": 36
+    },
+    {
+      "id": "type_text",
+      "count": 27
+    },
+    {
+      "id": "close_tab",
+      "count": 22
+    },
+    {
+      "id": "full_screen",
+      "count": 22
+    }
+  ],
+  "matchMs": {
+    "median": 1.1,
+    "p95": 87.3
+  },
+  "totalMs": {
+    "median": 122,
+    "p95": 1130
+  }
+}
