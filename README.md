@@ -1,0 +1,17 @@
+<div id="top"></div>
+
+<div align="center">
+
+<img src="./web/public/favicon.svg" alt="Hands-Free Pilot Logo" width="88" height="88" />
+
+# Hands-Free - Voice-Controlled macOS Assistant & Web Simulation
+
+**A High-Performance System for Voice-Driven Computing.**  
+*Turn Natural Speech Into Instant, Deterministic Desktop Action.*
+
+<br />
+
+[![Live App](https://img.shields.io/badge/Live_Demo-nohandspilot.vercel.app-000000.svg?style=for-the-badge&logo=vercel&logoColor=white&color=000000)](https://nohandspilot.vercel.app)
+[![Video Walkthrough](https://img.shields.io/badge/Video_Demo-YouTube_svUKJ5K3ZRI-FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/svUKJ5K3ZRI)
+
+<!-- Work in progress: docs(readme): initialize README.md with project title, hero badges, and navigation -->
