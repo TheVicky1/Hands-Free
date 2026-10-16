@@ -30,5 +30,10 @@
 
 <br />
 
+[Live Demo](https://nohandspilot.vercel.app) · [Video Demo](https://youtu.be/svUKJ5K3ZRI) · [About](#about) · [Foundational Principles](#foundational-principles) · [Quick Start](#quick-start) · [Core Features](#core-features) · [Visual Identity](#visual-identity--design-philosophy) · [Architecture](#architecture) · [Project Structure](#project-structure) · [Supported Commands](#supported-voice-commands) · [Documentation](#documentation) · [Contributing](#contributing) · [License](#license)
 
-<!-- Work in progress: docs(readme): add initial local setup guide for Swift pilot app -->
+</div>
+
+---
+
+<!-- Work in progress: docs(readme): add web simulator development installation commands -->
