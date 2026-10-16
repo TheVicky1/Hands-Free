@@ -697,3 +697,5 @@ Newest first. Each entry matches a commit on `main`.
 <!-- native verification log -->
 
 <!-- web simulator architecture milestone -->
+
+<!-- website feature logs -->
