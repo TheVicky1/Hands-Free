@@ -100,3 +100,5 @@ right-click → Open), so the website is what earns the "it works" score. Two co
   share in the submission; it supports the 30% Wispr criterion.
 
 <!-- SPM implementation notes -->
+
+<!-- architecture signoff -->
