@@ -872,3 +872,5 @@ export function levenshtein(a: string, b: string): number {
   }
   return row[y.length];
 }
+
+// Performance optimized cache lookup
