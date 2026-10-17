@@ -69,4 +69,9 @@ Most voice assistants suffer from **conversational drag**—they ask clarifying 
 | **Dependencies** | Wispr Flow (recommended for voice dictation) | `npm` (v10+) or `pnpm` |
 | **Permissions** | Accessibility & Input Monitoring | None (Browser sandboxed) |
 
-<!-- Work in progress: docs(readme): add interactive Web Desktop Simulator capabilities -->
+---
+
+### Native macOS App Setup
+
+
+<!-- Work in progress: docs(readme): document Wispr Flow clipboard interception mechanism -->
