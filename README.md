@@ -36,4 +36,10 @@
 
 ---
 
-<!-- Work in progress: docs(readme): add web simulator development installation commands -->
+<div align="center">
+  <h2>About</h2>
+</div>
+
+Most voice assistants suffer from **conversational drag**—they ask clarifying questions, introduce artificial latency, hallucinate non-deterministic actions, or require round-tripping through cloud AI models just to switch a window or click a button. Meanwhile, legacy accessibility software often relies on clunky numbered grids or sluggish speech engines that fail to keep pace with modern developer workflows.
+
+<!-- Work in progress: docs(readme): document validation gates including BrainCheck and Vitest suites -->
