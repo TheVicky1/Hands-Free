@@ -42,4 +42,9 @@
 
 Most voice assistants suffer from **conversational drag**—they ask clarifying questions, introduce artificial latency, hallucinate non-deterministic actions, or require round-tripping through cloud AI models just to switch a window or click a button. Meanwhile, legacy accessibility software often relies on clunky numbered grids or sluggish speech engines that fail to keep pace with modern developer workflows.
 
-<!-- Work in progress: docs(readme): document validation gates including BrainCheck and Vitest suites -->
+**Hands-Free (Pilot)** is an open-source, dual-layer system designed for effortless, high-speed, voice-driven computing:
+1. **A Native macOS Menu-Bar Daemon** written in **Swift 5.9** that intercepts speech dictation from Wispr Flow via low-level `CGEvent` taps, resolves commands deterministically in under 2 ms using `PilotBrain`, and synthesizes native keystrokes, clicks, window focus, and screen navigation through Apple Accessibility APIs.
+2. **An Interactive Web Desktop Simulator** built with **React 19**, **TypeScript 5.9**, **Tailwind CSS v4**, **Vite**, and **Framer Motion** that runs the exact same matching engine in-browser, offering a sandboxed virtual macOS desktop environment to test voice commands and shortcuts before running them natively.
+
+
+<!-- Work in progress: docs(readme): add Playwright end-to-end testing runbooks -->
