@@ -62,5 +62,11 @@ Most voice assistants suffer from **conversational drag**—they ask clarifying 
 
 ### Prerequisites
 
+| Component | Native macOS App | Web Desktop Simulator |
+|---|---|---|
+| **Operating System** | macOS 14.0+ (Sonoma or Sequoia) | Any modern OS (macOS, Linux, Windows) |
+| **Runtime / Compiler** | Swift 5.9+ / Xcode Command Line Tools | Node.js `v20.x` or higher |
+| **Dependencies** | Wispr Flow (recommended for voice dictation) | `npm` (v10+) or `pnpm` |
+| **Permissions** | Accessibility & Input Monitoring | None (Browser sandboxed) |
 
-<!-- Work in progress: docs(readme): document Brain Voice Matcher and pattern syntax -->
+<!-- Work in progress: docs(readme): add interactive Web Desktop Simulator capabilities -->
