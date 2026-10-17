@@ -73,5 +73,11 @@ Most voice assistants suffer from **conversational drag**—they ask clarifying 
 
 ### Native macOS App Setup
 
+```bash
+# 1. Clone the repository
+git clone https://github.com/TheVicky1/Hands-Free.git
+cd Hands-Free
 
-<!-- Work in progress: docs(readme): document Wispr Flow clipboard interception mechanism -->
+# 2. Build, run BrainCheck, sign, and install Pilot.app to ~/Applications
+
+<!-- Work in progress: docs(readme): document audio wake word detection and false-positive guards -->
