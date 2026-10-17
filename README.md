@@ -46,5 +46,11 @@ Most voice assistants suffer from **conversational drag**—they ask clarifying 
 1. **A Native macOS Menu-Bar Daemon** written in **Swift 5.9** that intercepts speech dictation from Wispr Flow via low-level `CGEvent` taps, resolves commands deterministically in under 2 ms using `PilotBrain`, and synthesizes native keystrokes, clicks, window focus, and screen navigation through Apple Accessibility APIs.
 2. **An Interactive Web Desktop Simulator** built with **React 19**, **TypeScript 5.9**, **Tailwind CSS v4**, **Vite**, and **Framer Motion** that runs the exact same matching engine in-browser, offering a sandboxed virtual macOS desktop environment to test voice commands and shortcuts before running them natively.
 
+### Foundational Principles
 
-<!-- Work in progress: docs(readme): add Playwright end-to-end testing runbooks -->
+1. **Zero-Latency Execution (<2 ms Matching)**: Voice command parsing uses a deterministic rule matcher (`PilotBrain`) rather than conversational LLM inference for routine desktop operations. Commands are evaluated in 1.4 to 1.9 ms.
+2. **Clean Clipboard Isolation**: Wispr Flow dictates text by simulating a paste operation. Pilot intercepts the paste directly from Wispr's process bundle via session taps, swallows the clipboard payload before any frontmost application receives it, and keeps the user's system pasteboard uncontaminated.
+3. **Dual Architecture with 100% Logic Parity**: The command matching rules, token normalization, context routing, and app aliasing are authored identically in Swift (`Brain.swift`) and TypeScript (`brain.ts`), verified by reciprocal unit test suites (`BrainCheck` and Vitest).
+4. **Privacy-First Local Execution**: Pilot runs entirely on-device. Audio buffers for the "Pilot" wake word are processed locally via Apple's Speech framework, and command execution never leaves your Mac.
+
+<!-- Work in progress: docs(readme): introduce Core Features section overview -->
