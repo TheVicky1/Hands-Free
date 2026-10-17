@@ -52,5 +52,10 @@ Most voice assistants suffer from **conversational drag**—they ask clarifying 
 2. **Clean Clipboard Isolation**: Wispr Flow dictates text by simulating a paste operation. Pilot intercepts the paste directly from Wispr's process bundle via session taps, swallows the clipboard payload before any frontmost application receives it, and keeps the user's system pasteboard uncontaminated.
 3. **Dual Architecture with 100% Logic Parity**: The command matching rules, token normalization, context routing, and app aliasing are authored identically in Swift (`Brain.swift`) and TypeScript (`brain.ts`), verified by reciprocal unit test suites (`BrainCheck` and Vitest).
 4. **Privacy-First Local Execution**: Pilot runs entirely on-device. Audio buffers for the "Pilot" wake word are processed locally via Apple's Speech framework, and command execution never leaves your Mac.
+5. **Human-Centric Feedback**: Status is communicated through a floating HUD toast, a subtle menu-bar indicator, and a single warm amber waveform that illuminates strictly while Pilot is acting.
 
-<!-- Work in progress: docs(readme): introduce Core Features section overview -->
+---
+
+<div align="center">
+
+<!-- Work in progress: docs(readme): detail Native Swift Pilot Engine architecture -->
