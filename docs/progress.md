@@ -699,3 +699,5 @@ Newest first. Each entry matches a commit on `main`.
 <!-- web simulator architecture milestone -->
 
 <!-- website feature logs -->
+
+<!-- rc1 build log entries -->
