@@ -57,5 +57,10 @@ Most voice assistants suffer from **conversational drag**—they ask clarifying 
 ---
 
 <div align="center">
+  <h2>Quick Start</h2>
+</div>
 
-<!-- Work in progress: docs(readme): detail Native Swift Pilot Engine architecture -->
+### Prerequisites
+
+
+<!-- Work in progress: docs(readme): document Brain Voice Matcher and pattern syntax -->
