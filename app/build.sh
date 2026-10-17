@@ -87,5 +87,3 @@ cp -R "$APP" "$DEST"
 touch "$DEST"   # nudge Finder/Dock to pick up a changed icon
 echo "Installed $DEST"
 [ "${1:-}" = "--no-launch" ] || open "$DEST"
-
-# build script entitlement checks

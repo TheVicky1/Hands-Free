@@ -622,7 +622,3 @@ func levenshtein(_ a: String, _ b: String) -> Int {
     }
     return row[b.count]
 }
-
-// Context resolution and synonym rules
-
-// Multi-action chaining enhancements

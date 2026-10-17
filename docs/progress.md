@@ -691,13 +691,3 @@ Newest first. Each entry matches a commit on `main`.
 ## Next
 - [ ] Your batched test of the 28 Oct features (docs/setup.md section 6) → fix whatever it shows
 - [ ] Website playground (reuses commands.json and learned.json; port the Brain's matching rules to JS)
-
-<!-- Day 1 milestone completed -->
-
-<!-- native verification log -->
-
-<!-- web simulator architecture milestone -->
-
-<!-- website feature logs -->
-
-<!-- rc1 build log entries -->

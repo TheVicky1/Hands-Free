@@ -152,5 +152,3 @@ enum Hotkey {
         return RegisterEventHotKey(UInt32(code), mods, EventHotKeyID(signature: OSType(0x504C_5454), id: 1), GetApplicationEventTarget(), 0, &ref) == noErr
     }
 }
-
-// Wispr paste interceptor clipboard isolation

@@ -10,5 +10,3 @@ let package = Package(
         .executableTarget(name: "BrainCheck", dependencies: ["PilotBrain"]),
     ]
 )
-
-// Release targets configuration

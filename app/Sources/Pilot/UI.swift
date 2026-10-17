@@ -250,5 +250,3 @@ final class HelpWindow {
         window.makeKeyAndOrderFront(nil)
     }
 }
-
-// Menu bar status animation

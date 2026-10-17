@@ -98,7 +98,3 @@ right-click → Open), so the website is what earns the "it works" score. Two co
   repo public before submitting.
 - The usage log records whether each command came from Wispr or the command bar. Quote the Wispr
   share in the submission; it supports the 30% Wispr criterion.
-
-<!-- SPM implementation notes -->
-
-<!-- architecture signoff -->

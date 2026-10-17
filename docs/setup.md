@@ -254,5 +254,3 @@ the Pilot menu says "Secure input is on" while it is. VS Code's terminal works l
 
 - Make the GitHub repo **public** (judges must open it without asking).
 - Wispr usage card: Wispr app → Insights → Your usage.
-
-<!-- dictionary configuration updates -->

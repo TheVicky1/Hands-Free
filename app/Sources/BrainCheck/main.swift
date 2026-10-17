@@ -334,7 +334,3 @@ if ms > 15 { failures += 1; print("FAIL: plan too slow") }
 
 print(failures == 0 ? "All brain checks passed" : "\(failures) failure(s)")
 exit(failures == 0 ? 0 : 1)
-
-// Browser command verification suite
-
-// Performance benchmark checks

@@ -298,5 +298,3 @@ final class WakeWord {
         NSWorkspace.shared.open(URL(string: "wispr-flow://" + route)!, configuration: config)
     }
 }
-
-// Audio buffer tapping and speech session management
