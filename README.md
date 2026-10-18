@@ -198,5 +198,10 @@ sequenceDiagram
     Wispr->>Wispr: Fast On-Device ASR Transcribe
     Wispr->>Tap: Paste CGEvent (Cmd+V) into frontmost window
     Tap->>Tap: Intercept paste from Wispr bundle ID
+    Tap->>Tap: Inspect NSPasteboard text & swallow event
+    Tap->>Brain: Parse "open Chrome and search for docker networking"
+    Brain->>Brain: Match Chain: [1: Open Chrome, 2: Search docker networking]
+    Brain->>Hands: Dispatch Action 1: Focus App ("Google Chrome")
+    Hands->>Target: Activate Window & wait for focus (158 ms)
 
-<!-- Work in progress: docs(readme): add Technology Stack section with language matrix -->
+<!-- Work in progress: docs(readme): detail frontend frameworks and build tooling in tech stack -->
