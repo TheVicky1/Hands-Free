@@ -154,5 +154,11 @@ cd web && npm run build
 - **Macro Expansion**: Translates conversational voice requests into multi-step UI operations (e.g. "upload the screenshot" navigates file dialogs via `Cmd+Shift+G`, pastes the latest screenshot path, downsamples if over 5 MB, and submits).
 
 ### 3. Interactive Web Desktop Simulator (`web/src/desktop/`)
+- **Virtual macOS Environment**: A full in-browser replica of macOS with draggable windows, Dock bounce animations, active MenuBar with live clock, and realistic traffic light window controls.
+- **Interactive CommandBar**: Type or dictate commands with live autocomplete, keyboard navigation, and immediate visual feedback.
+- **Simulated Apps & Pages**: Includes functional stand-ins for Chrome, VS Code, Notes, Finder, Terminal, and System Settings.
+- **Fluid Motion System**: Powered by Framer Motion with custom spring physics that honor user `prefers-reduced-motion` settings.
 
-<!-- Work in progress: docs(readme): add Mermaid sequence diagram for speech-to-action execution -->
+---
+
+<!-- Work in progress: docs(readme): add Mermaid flowchart for native Swift daemon architecture -->
