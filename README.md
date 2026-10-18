@@ -111,5 +111,11 @@ npm run dev
 
 ---
 
+### Validation & Quality Gates
 
-<!-- Work in progress: docs(readme): document menu bar status indicator and lifecycle states -->
+```bash
+# Run Swift native BrainCheck test suite (27+ assertion benchmarks)
+cd app && swift run BrainCheck
+
+
+<!-- Work in progress: docs(readme): add Control+Option+P command bar shortcut specifications -->
