@@ -95,5 +95,10 @@ open ~/Applications/Pilot.app
 
 ### Web Desktop Simulator Setup
 
+```bash
+# 1. Navigate to the web workspace
+cd web
 
-<!-- Work in progress: docs(readme): document system volume and media key controls -->
+# 2. Install reproducible dependencies
+
+<!-- Work in progress: docs(readme): document screen reading and AXUIElement coordinate mapping -->
