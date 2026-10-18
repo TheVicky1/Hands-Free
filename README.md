@@ -123,4 +123,9 @@ cd web && npm test
 # Run Playwright End-to-End browser test suite
 cd web && npx playwright test
 
-<!-- Work in progress: docs(readme): add visual identity overview and design philosophy -->
+# Run ESLint quality audit
+cd web && npm run lint
+
+# Run TypeScript strict type verification
+
+<!-- Work in progress: docs(readme): document obsidian and paper color tokens palette -->
