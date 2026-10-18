@@ -252,5 +252,10 @@ Hands-Free/
     ├── eslint.config.js            # ESLint code hygiene rules
     ├── index.html                  # HTML entrypoint with pre-paint theme script
     ├── DESIGN.md                   # Authoritative design system specifications
+    ├── e2e/
+    │   └── autoplay.spec.ts        # Playwright automated browser test suite
+    ├── public/                     # Static web assets and mock statistics
+    │   ├── favicon.svg             # Hand monogram logo with signal waveform
+    │   ├── og.png                  # OpenGraph social preview card
 
-<!-- Work in progress: docs(readme): document media playback, volume, and system controls -->
+<!-- Work in progress: docs(readme): document multi-action command chaining syntax and examples -->
