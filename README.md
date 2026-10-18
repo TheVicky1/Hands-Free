@@ -100,5 +100,11 @@ open ~/Applications/Pilot.app
 cd web
 
 # 2. Install reproducible dependencies
+npm install
 
-<!-- Work in progress: docs(readme): document screen reading and AXUIElement coordinate mapping -->
+# 3. Start local Vite development server
+npm run dev
+
+# 4. Open in browser
+
+<!-- Work in progress: docs(readme): add floating HUD status and audio-visual cues specification -->
