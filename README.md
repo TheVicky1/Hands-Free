@@ -91,4 +91,9 @@ open ~/Applications/Pilot.app
 2. **Input Monitoring**: In **Privacy & Security → Input Monitoring**, ensure **Pilot** is authorized to observe global shortcut taps.
 3. **Wispr Flow Dictionary**: In Wispr Flow Settings → Dictionary, add the term **`Pilot`** so voice triggers are never transcribed as "Pilate" or "pilot's".
 
-<!-- Work in progress: docs(readme): document scroll simulation and window target detection -->
+---
+
+### Web Desktop Simulator Setup
+
+
+<!-- Work in progress: docs(readme): document system volume and media key controls -->
