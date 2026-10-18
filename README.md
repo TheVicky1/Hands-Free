@@ -117,5 +117,10 @@ npm run dev
 # Run Swift native BrainCheck test suite (27+ assertion benchmarks)
 cd app && swift run BrainCheck
 
+# Run Web unit test matrix (Vitest: brain matcher, simulator reducer, said parser)
+cd web && npm test
 
-<!-- Work in progress: docs(readme): add Control+Option+P command bar shortcut specifications -->
+# Run Playwright End-to-End browser test suite
+cd web && npx playwright test
+
+<!-- Work in progress: docs(readme): add visual identity overview and design philosophy -->
