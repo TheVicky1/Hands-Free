@@ -210,4 +210,9 @@ sequenceDiagram
 
 ---
 
-<!-- Work in progress: docs(readme): detail macOS system APIs and accessibility frameworks -->
+<div align="center">
+  <h2>Project Structure</h2>
+</div>
+
+
+<!-- Work in progress: docs(readme): detail testing libraries and e2e test harness in tech stack -->
