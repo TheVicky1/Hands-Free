@@ -241,5 +241,11 @@ Hands-Free/
 ├── docs/                           # Project technical documentation
 │   ├── demo.md                     # Timed 2-minute live demo presentation script
 │   ├── plan-review.md              # Architectural evaluation & technical decisions
+│   ├── progress.md                 # Reverse-chronological engineering build log
+│   └── setup.md                    # Detailed permissions & Wispr setup guide
+├── scripts/
+│   └── export-stats.mjs            # Usage metrics extraction script
+└── web/                            # React 19 + TypeScript + Vite Web Simulation
+    ├── package.json                # Web manifest and script definitions
 
-<!-- Work in progress: docs(readme): document VS Code and developer workflow voice commands -->
+<!-- Work in progress: docs(readme): document Finder and file management voice commands -->
