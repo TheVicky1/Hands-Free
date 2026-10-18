@@ -268,5 +268,11 @@ Hands-Free/
         ├── stats.ts                # Real-time usage statistics parser
         ├── brain/                  # TypeScript port of PilotBrain
         │   ├── brain.ts            # Rule matcher with 100% Swift parity
+        │   ├── brain.test.ts       # Vitest unit test suite for matcher
+        │   └── site.ts             # Website shortcut resolution
+        ├── desktop/                # Virtual macOS Desktop components
+        │   ├── PilotDesktop.tsx    # Integrated virtual workspace container
+        │   ├── sim.ts              # Desktop state reducer and dispatchers
+        │   ├── sim.test.ts         # Vitest test suite for desktop actions
 
-<!-- Work in progress: docs(readme): document website shortcuts and URL resolution rules -->
+<!-- Work in progress: docs(readme): add tips for Wispr Flow custom dictionary configuration -->
