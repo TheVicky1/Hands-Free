@@ -127,5 +127,11 @@ cd web && npx playwright test
 cd web && npm run lint
 
 # Run TypeScript strict type verification
+cd web && npm run typecheck
 
-<!-- Work in progress: docs(readme): document obsidian and paper color tokens palette -->
+# Run production Vite compilation build
+cd web && npm run build
+```
+
+
+<!-- Work in progress: docs(readme): specify typography hierarchy featuring Fraunces and JetBrains Mono -->
