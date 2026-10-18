@@ -106,5 +106,10 @@ npm install
 npm run dev
 
 # 4. Open in browser
+# Navigate to http://localhost:5173
+```
 
-<!-- Work in progress: docs(readme): add floating HUD status and audio-visual cues specification -->
+---
+
+
+<!-- Work in progress: docs(readme): document menu bar status indicator and lifecycle states -->
