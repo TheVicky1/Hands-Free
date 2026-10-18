@@ -257,5 +257,11 @@ Hands-Free/
     ├── public/                     # Static web assets and mock statistics
     │   ├── favicon.svg             # Hand monogram logo with signal waveform
     │   ├── og.png                  # OpenGraph social preview card
+    │   ├── robots.txt              # Search crawler directives
+    │   ├── stats.json              # Real production usage metrics
+    │   └── wispr-usage.png         # Wispr Flow Insights verification proof
+    └── src/
+        ├── main.tsx                # React application bootstrap
+        ├── index.css               # Tailwind CSS v4 design tokens (@theme)
 
-<!-- Work in progress: docs(readme): document multi-action command chaining syntax and examples -->
+<!-- Work in progress: docs(readme): document app context scoping and prepositional routing -->
