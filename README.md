@@ -230,5 +230,11 @@ Hands-Free/
 │       ├── Pilot/                  # Main application daemon
 │       │   ├── Hands.swift         # CGEvent input synthesis (keys, clicks, scroll)
 │       │   ├── Screen.swift        # AXUIElement hierarchy & coordinate mapping
+│       │   ├── Taps.swift          # Session event taps for Wispr interception
+│       │   ├── UI.swift            # Menu bar item, HUD toast & cheat sheet UI
+│       │   ├── WakeWord.swift      # SFSpeechRecognizer on-device audio listener
+│       │   └── main.swift          # NSApplication delegate & shortcut coordinator
+│       └── PilotBrain/
+│           └── Brain.swift         # Core voice pattern matcher & command resolver
 
-<!-- Work in progress: docs(readme): document Google Chrome tab and browsing voice commands -->
+<!-- Work in progress: docs(readme): document Claude AI and desktop application shortcuts -->
