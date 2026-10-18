@@ -79,5 +79,10 @@ git clone https://github.com/TheVicky1/Hands-Free.git
 cd Hands-Free
 
 # 2. Build, run BrainCheck, sign, and install Pilot.app to ~/Applications
+cd app
+./build.sh
 
-<!-- Work in progress: docs(readme): document audio wake word detection and false-positive guards -->
+# 3. Launch Pilot from Applications
+open ~/Applications/Pilot.app
+
+<!-- Work in progress: docs(readme): document CGEvent synthesis for smooth click and typing -->
