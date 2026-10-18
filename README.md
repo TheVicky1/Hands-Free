@@ -225,5 +225,10 @@ Hands-Free/
 │   │   ├── AppIcon.icns            # macOS Application icon bundle
 │   │   ├── MenuIcon.png            # Standard menu-bar airplane icon
 │   │   └── MenuIcon@2x.png         # Retina menu-bar airplane icon
+│   └── Sources/
+│       ├── BrainCheck/main.swift   # Verification harness with 27+ test cases
+│       ├── Pilot/                  # Main application daemon
+│       │   ├── Hands.swift         # CGEvent input synthesis (keys, clicks, scroll)
+│       │   ├── Screen.swift        # AXUIElement hierarchy & coordinate mapping
 
-<!-- Work in progress: docs(readme): document global navigation and window management commands -->
+<!-- Work in progress: docs(readme): document Google Chrome tab and browsing voice commands -->
