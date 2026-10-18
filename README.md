@@ -165,5 +165,11 @@ cd web && npm run build
   <h2>Visual Identity & Design Philosophy</h2>
 </div>
 
+Following [`web/DESIGN.md`](web/DESIGN.md), Hands-Free embodies a calm, precise, and cinematic aesthetic:
+- **Palette**: Deep near-black ink (`#08090B`) paired with warm paper-white (`#F2EDE4`).
+- **The Signal**: A singular cockpit caution amber (`#FFB02E` in dark mode, `#A85700` in light mode). The amber signal is reserved strictly for moments when Pilot is actively hearing or executing a command.
+- **Typography**:
+  - **Fraunces**: Variable display serif with high-contrast optical sizing for hero headlines.
+  - **Instrument Sans**: Clean, modern humanist sans-serif for UI elements and explanatory prose.
 
-<!-- Work in progress: docs(readme): add Mermaid flowchart for web simulator state machine -->
+<!-- Work in progress: docs(readme): document data flow from Wispr paste to accessibility dispatch -->
