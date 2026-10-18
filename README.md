@@ -171,5 +171,10 @@ Following [`web/DESIGN.md`](web/DESIGN.md), Hands-Free embodies a calm, precise,
 - **Typography**:
   - **Fraunces**: Variable display serif with high-contrast optical sizing for hero headlines.
   - **Instrument Sans**: Clean, modern humanist sans-serif for UI elements and explanatory prose.
+  - **JetBrains Mono**: Monospace font for commands, parameters, code, and system metrics.
+- **Texture**: Subtle 4.5% film grain overlay on the landing page creates depth without distracting from the crisp mock desktop.
 
-<!-- Work in progress: docs(readme): document data flow from Wispr paste to accessibility dispatch -->
+---
+
+
+<!-- Work in progress: docs(readme): add Project Structure section heading and root overview -->
