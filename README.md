@@ -263,5 +263,10 @@ Hands-Free/
     └── src/
         ├── main.tsx                # React application bootstrap
         ├── index.css               # Tailwind CSS v4 design tokens (@theme)
+        ├── theme.ts                # System / Light / Dark theme store
+        ├── motion.ts               # Framer Motion animation tokens
+        ├── stats.ts                # Real-time usage statistics parser
+        ├── brain/                  # TypeScript port of PilotBrain
+        │   ├── brain.ts            # Rule matcher with 100% Swift parity
 
-<!-- Work in progress: docs(readme): document app context scoping and prepositional routing -->
+<!-- Work in progress: docs(readme): document website shortcuts and URL resolution rules -->
