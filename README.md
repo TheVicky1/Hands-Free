@@ -139,4 +139,10 @@ cd web && npm run build
   <h2>Core Features</h2>
 </div>
 
-<!-- Work in progress: docs(readme): add Framer Motion spring physics and animation timings -->
+### 1. Native Swift Pilot Daemon (`app/Sources/Pilot/`)
+- **`Hands.swift`**: Synthesizes hardware-level keyboard events, unicode character streams, smooth cursor trajectories, left/right clicks, and targeted scroll events using Quartz `CGEvent`. Focuses applications and waits for frontmost confirmation before typing.
+- **`Screen.swift`**: Queries macOS Display Services and `AXUIElement` accessibility hierarchies to locate window bounds, controls, file dialogs, and button coordinates.
+- **`Taps.swift`**: Hooks into macOS event taps at the session level to catch Wispr Flow pastes (`com.electron.wispr-flow`), inspect clipboard contents, match voice commands, and drop unwanted text cleanly.
+- **`WakeWord.swift`**: Continuously listens for the "Pilot" wake word using Apple's on-device `SFSpeechRecognizer`. Employs smart partial-transcript guards to prevent false wakes on phrases like "No Hands Pilot".
+
+<!-- Work in progress: docs(readme): detail reduced motion accessibility compliance -->
