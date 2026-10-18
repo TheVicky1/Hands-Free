@@ -247,5 +247,10 @@ Hands-Free/
 │   └── export-stats.mjs            # Usage metrics extraction script
 └── web/                            # React 19 + TypeScript + Vite Web Simulation
     ├── package.json                # Web manifest and script definitions
+    ├── vite.config.ts              # Vite bundling configuration
+    ├── tsconfig.json               # Strict TypeScript compiler options
+    ├── eslint.config.js            # ESLint code hygiene rules
+    ├── index.html                  # HTML entrypoint with pre-paint theme script
+    ├── DESIGN.md                   # Authoritative design system specifications
 
-<!-- Work in progress: docs(readme): document Finder and file management voice commands -->
+<!-- Work in progress: docs(readme): document media playback, volume, and system controls -->
