@@ -144,5 +144,10 @@ cd web && npm run build
 - **`Screen.swift`**: Queries macOS Display Services and `AXUIElement` accessibility hierarchies to locate window bounds, controls, file dialogs, and button coordinates.
 - **`Taps.swift`**: Hooks into macOS event taps at the session level to catch Wispr Flow pastes (`com.electron.wispr-flow`), inspect clipboard contents, match voice commands, and drop unwanted text cleanly.
 - **`WakeWord.swift`**: Continuously listens for the "Pilot" wake word using Apple's on-device `SFSpeechRecognizer`. Employs smart partial-transcript guards to prevent false wakes on phrases like "No Hands Pilot".
+- **`UI.swift`**: Houses the custom menu-bar status icon (airplane), dark/light appearance coordinator, floating HUD status toast with animation physics, and the "What can I say?" command cheat sheet window.
+- **`main.swift`**: Coordinates application lifecycle, registers the global **`Control+Option+P`** shortcut for direct keyboard input, and maintains the daily usage count.
 
-<!-- Work in progress: docs(readme): detail reduced motion accessibility compliance -->
+### 2. High-Speed Pattern Matcher (`PilotBrain/Brain.swift` & `web/src/brain/`)
+- **Sub-2ms Evaluation**: Eliminates neural inference overhead for deterministic desktop commands.
+
+<!-- Work in progress: docs(readme): scaffold Architecture section with dual-pipeline overview -->
