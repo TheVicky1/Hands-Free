@@ -203,5 +203,11 @@ sequenceDiagram
     Brain->>Brain: Match Chain: [1: Open Chrome, 2: Search docker networking]
     Brain->>Hands: Dispatch Action 1: Focus App ("Google Chrome")
     Hands->>Target: Activate Window & wait for focus (158 ms)
+    Brain->>Hands: Dispatch Action 2: Cmd+T -> Type URL -> Return
+    Hands->>Target: Send CGEvents (keystrokes)
+    Hands-->>User: HUD Toast: "✓ Google Chrome · Search docker networking"
+```
 
-<!-- Work in progress: docs(readme): detail frontend frameworks and build tooling in tech stack -->
+---
+
+<!-- Work in progress: docs(readme): detail macOS system APIs and accessibility frameworks -->
