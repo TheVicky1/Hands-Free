@@ -182,5 +182,10 @@ Following [`web/DESIGN.md`](web/DESIGN.md), Hands-Free embodies a calm, precise,
 
 ### System Execution Lifecycle
 
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User as Voice User
+    participant Mic as Microphone / Speech API
 
-<!-- Work in progress: docs(readme): catalog native app directory structure and swift modules -->
+<!-- Work in progress: docs(readme): catalog web simulator components and desktop state modules -->
