@@ -133,5 +133,10 @@ cd web && npm run typecheck
 cd web && npm run build
 ```
 
+---
 
-<!-- Work in progress: docs(readme): specify typography hierarchy featuring Fraunces and JetBrains Mono -->
+<div align="center">
+  <h2>Core Features</h2>
+</div>
+
+<!-- Work in progress: docs(readme): add Framer Motion spring physics and animation timings -->
