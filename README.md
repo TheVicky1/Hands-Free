@@ -176,5 +176,11 @@ Following [`web/DESIGN.md`](web/DESIGN.md), Hands-Free embodies a calm, precise,
 
 ---
 
+<div align="center">
+  <h2>Architecture</h2>
+</div>
 
-<!-- Work in progress: docs(readme): add Project Structure section heading and root overview -->
+### System Execution Lifecycle
+
+
+<!-- Work in progress: docs(readme): catalog native app directory structure and swift modules -->
