@@ -187,5 +187,10 @@ sequenceDiagram
     autonumber
     actor User as Voice User
     participant Mic as Microphone / Speech API
+    participant Wispr as Wispr Flow Daemon
+    participant Tap as CGEvent Session Tap (Pilot)
+    participant Brain as PilotBrain Pattern Engine
+    participant Hands as Quartz CGEvent Synthesizer
+    participant Target as Frontmost App (Chrome / VS Code)
 
-<!-- Work in progress: docs(readme): catalog web simulator components and desktop state modules -->
+<!-- Work in progress: docs(readme): catalog documentation and command specifications files -->
