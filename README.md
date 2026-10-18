@@ -236,5 +236,10 @@ Hands-Free/
 │       │   └── main.swift          # NSApplication delegate & shortcut coordinator
 │       └── PilotBrain/
 │           └── Brain.swift         # Core voice pattern matcher & command resolver
+├── commands/
+│   └── commands.json               # Canonical dictionary of 84+ voice commands
+├── docs/                           # Project technical documentation
+│   ├── demo.md                     # Timed 2-minute live demo presentation script
+│   ├── plan-review.md              # Architectural evaluation & technical decisions
 
-<!-- Work in progress: docs(readme): document Claude AI and desktop application shortcuts -->
+<!-- Work in progress: docs(readme): document VS Code and developer workflow voice commands -->
