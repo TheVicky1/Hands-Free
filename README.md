@@ -274,5 +274,10 @@ Hands-Free/
         │   ├── PilotDesktop.tsx    # Integrated virtual workspace container
         │   ├── sim.ts              # Desktop state reducer and dispatchers
         │   ├── sim.test.ts         # Vitest test suite for desktop actions
+        │   ├── CommandBar.tsx      # Interactive command bar with autocomplete
+        │   ├── Dock.tsx            # macOS Dock with animated icon bouncing
+        │   ├── MenuBar.tsx         # macOS MenuBar with real-time clock
+        │   ├── Window.tsx          # Draggable macOS window frames
+        │   ├── Hud.tsx             # Floating desktop HUD notifications
 
-<!-- Work in progress: docs(readme): add tips for Wispr Flow custom dictionary configuration -->
+<!-- Work in progress: docs(readme): document accessibility permission troubleshooting steps -->
