@@ -84,5 +84,11 @@ cd app
 
 # 3. Launch Pilot from Applications
 open ~/Applications/Pilot.app
+```
 
-<!-- Work in progress: docs(readme): document CGEvent synthesis for smooth click and typing -->
+#### Grant macOS Permissions (One-Time)
+1. **Accessibility**: Open **System Settings → Privacy & Security → Accessibility** and toggle **Pilot** ON.
+2. **Input Monitoring**: In **Privacy & Security → Input Monitoring**, ensure **Pilot** is authorized to observe global shortcut taps.
+3. **Wispr Flow Dictionary**: In Wispr Flow Settings → Dictionary, add the term **`Pilot`** so voice triggers are never transcribed as "Pilate" or "pilot's".
+
+<!-- Work in progress: docs(readme): document scroll simulation and window target detection -->
