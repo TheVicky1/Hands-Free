@@ -219,5 +219,11 @@ Hands-Free/
 ├── .gitignore                      # Git exclusion rules for macOS, Node, Swift
 ├── .vercelignore                   # Vercel deployment exclusions
 ├── app/                            # Native macOS Swift Application
+│   ├── Package.swift               # SPM Manifest (Pilot, PilotBrain, BrainCheck)
+│   ├── build.sh                    # Automated compilation, signing & install script
+│   ├── Resources/                  # Native assets
+│   │   ├── AppIcon.icns            # macOS Application icon bundle
+│   │   ├── MenuIcon.png            # Standard menu-bar airplane icon
+│   │   └── MenuIcon@2x.png         # Retina menu-bar airplane icon
 
-<!-- Work in progress: docs(readme): introduce Supported Voice Commands section overview -->
+<!-- Work in progress: docs(readme): document global navigation and window management commands -->
