@@ -149,5 +149,10 @@ cd web && npm run build
 
 ### 2. High-Speed Pattern Matcher (`PilotBrain/Brain.swift` & `web/src/brain/`)
 - **Sub-2ms Evaluation**: Eliminates neural inference overhead for deterministic desktop commands.
+- **App-Scoped Execution**: Commands containing prepositions ("search docker in Chrome", "find main in VS Code") automatically route to the target application without polluting the global search scope.
+- **Multi-Action Chaining**: Splits continuous speech into sequential atomic steps using conjunctions (`"and"`, `","`, `", then"`).
+- **Macro Expansion**: Translates conversational voice requests into multi-step UI operations (e.g. "upload the screenshot" navigates file dialogs via `Cmd+Shift+G`, pastes the latest screenshot path, downsamples if over 5 MB, and submits).
 
-<!-- Work in progress: docs(readme): scaffold Architecture section with dual-pipeline overview -->
+### 3. Interactive Web Desktop Simulator (`web/src/desktop/`)
+
+<!-- Work in progress: docs(readme): add Mermaid sequence diagram for speech-to-action execution -->
