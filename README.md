@@ -193,4 +193,10 @@ sequenceDiagram
     participant Hands as Quartz CGEvent Synthesizer
     participant Target as Frontmost App (Chrome / VS Code)
 
-<!-- Work in progress: docs(readme): catalog documentation and command specifications files -->
+    User->>Mic: "Pilot, open Chrome and search for docker networking"
+    Mic->>Wispr: Raw Audio Stream
+    Wispr->>Wispr: Fast On-Device ASR Transcribe
+    Wispr->>Tap: Paste CGEvent (Cmd+V) into frontmost window
+    Tap->>Tap: Intercept paste from Wispr bundle ID
+
+<!-- Work in progress: docs(readme): add Technology Stack section with language matrix -->
