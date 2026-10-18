@@ -279,5 +279,10 @@ Hands-Free/
         │   ├── MenuBar.tsx         # macOS MenuBar with real-time clock
         │   ├── Window.tsx          # Draggable macOS window frames
         │   ├── Hud.tsx             # Floating desktop HUD notifications
+        │   └── apps.tsx            # Simulated application component registry
+        └── landing/                # Product landing page components
+            ├── Landing.tsx         # Hero section, feature grids, and showcase
+            ├── Story.tsx           # Narrative walkthrough of voice computing
+            ├── Media.tsx           # Embedded video demo player
 
-<!-- Work in progress: docs(readme): document accessibility permission troubleshooting steps -->
+<!-- Work in progress: docs(readme): add notes on reproducible code signing with local certificate -->
