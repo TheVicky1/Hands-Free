@@ -161,4 +161,9 @@ cd web && npm run build
 
 ---
 
-<!-- Work in progress: docs(readme): add Mermaid flowchart for native Swift daemon architecture -->
+<div align="center">
+  <h2>Visual Identity & Design Philosophy</h2>
+</div>
+
+
+<!-- Work in progress: docs(readme): add Mermaid flowchart for web simulator state machine -->
