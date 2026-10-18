@@ -214,5 +214,10 @@ sequenceDiagram
   <h2>Project Structure</h2>
 </div>
 
+```
+Hands-Free/
+├── .gitignore                      # Git exclusion rules for macOS, Node, Swift
+├── .vercelignore                   # Vercel deployment exclusions
+├── app/                            # Native macOS Swift Application
 
-<!-- Work in progress: docs(readme): detail testing libraries and e2e test harness in tech stack -->
+<!-- Work in progress: docs(readme): introduce Supported Voice Commands section overview -->
