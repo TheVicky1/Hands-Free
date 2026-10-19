@@ -355,5 +355,10 @@ We welcome contributions from developers, accessibility researchers, and voice c
 2. **Clone Locally**:
    ```bash
    git clone https://github.com/<your-username>/Hands-Free.git
+   cd Hands-Free
+   ```
+3. **Create a Feature Branch**:
+   ```bash
+   git checkout -b feat/new-voice-command
 
-<!-- Work in progress: docs(readme): detail Conventional Commits specification requirements -->
+<!-- Work in progress: docs(readme): document Pull Request checklist and review turnaround -->
