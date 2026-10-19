@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add copy-paste friendly shell snippets for web dev server -->
+<!-- Milestone update: docs(readme): clarify Vercel production deployment build command -->
