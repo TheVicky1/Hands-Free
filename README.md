@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): update code fence language annotations for syntax highlighting -->
+<!-- Milestone update: docs(readme): verify all internal anchor links and section references -->
