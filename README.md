@@ -349,5 +349,11 @@ Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ support
 
 We welcome contributions from developers, accessibility researchers, and voice computing enthusiasts!
 
+### Contributor Workflow
 
-<!-- Work in progress: docs(readme): document local branch naming conventions and standards -->
+1. **Fork the Repository**: Create a personal fork on GitHub.
+2. **Clone Locally**:
+   ```bash
+   git clone https://github.com/<your-username>/Hands-Free.git
+
+<!-- Work in progress: docs(readme): detail Conventional Commits specification requirements -->
