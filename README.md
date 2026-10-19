@@ -306,5 +306,10 @@ Hands-Free/
 
 ---
 
+<div align="center">
+  <h2>Supported Voice Commands</h2>
+</div>
 
-<!-- Work in progress: docs(readme): link progress.md build log and commit correlation -->
+Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ supported applications**, documented in [`commands/commands.json`](commands/commands.json):
+
+<!-- Work in progress: docs(readme): link plan-review.md architecture rationale and decisions -->
