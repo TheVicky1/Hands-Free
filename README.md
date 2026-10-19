@@ -312,4 +312,10 @@ Hands-Free/
 
 Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ supported applications**, documented in [`commands/commands.json`](commands/commands.json):
 
-<!-- Work in progress: docs(readme): link plan-review.md architecture rationale and decisions -->
+| Category | Example Voice Phrase | Triggered Action |
+|---|---|---|
+| **Application Switching** | `"Pilot, open Chrome"` | Focuses or launches Google Chrome, confirms frontmost window |
+| **Web Navigation** | `"Pilot, open github dot com"` | Opens a new Chrome tab and navigates directly to URL |
+| **Search Queries** | `"Pilot, search docker networking on youtube"` | Resolves YouTube shortcut and runs query in a fresh tab |
+
+<!-- Work in progress: docs(readme): link web/DESIGN.md design system tokens and guidelines -->
