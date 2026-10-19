@@ -317,5 +317,10 @@ Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ support
 | **Application Switching** | `"Pilot, open Chrome"` | Focuses or launches Google Chrome, confirms frontmost window |
 | **Web Navigation** | `"Pilot, open github dot com"` | Opens a new Chrome tab and navigates directly to URL |
 | **Search Queries** | `"Pilot, search docker networking on youtube"` | Resolves YouTube shortcut and runs query in a fresh tab |
+| **Tab Management** | `"Pilot, switch to tab three"` | Synthesizes `Cmd+3` in active browser window |
+| **Window Layout** | `"Pilot, zoom window"` | Toggles window zoom state via macOS accessibility actions |
+| **Developer Tools** | `"Pilot, new terminal tab"` | Dispatches `Cmd+T` in active terminal / VS Code session |
+| **AI Assistants** | `"Pilot, ask Claude how do I invert a binary tree"` | Focuses Claude.app and types prompt directly into input |
+| **Media & Volume** | `"Pilot, volume up"` / `"Pilot, pause music"` | Dispatches macOS hardware media keys without bringing app to front |
 
-<!-- Work in progress: docs(readme): link web/DESIGN.md design system tokens and guidelines -->
+<!-- Work in progress: docs(readme): link commands.json authoritative command definitions -->
