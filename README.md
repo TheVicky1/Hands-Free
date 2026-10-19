@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): format callout quotes and operational highlights -->
+<!-- Milestone update: docs(readme): polish table formatting and spacing across quick start -->
