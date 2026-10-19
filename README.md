@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): polish table formatting and spacing across quick start -->
+<!-- Milestone update: docs(readme): enhance Mermaid diagram labels and styling classes -->
