@@ -284,5 +284,11 @@ Hands-Free/
             ├── Landing.tsx         # Hero section, feature grids, and showcase
             ├── Story.tsx           # Narrative walkthrough of voice computing
             ├── Media.tsx           # Embedded video demo player
+            └── Usage.tsx           # Wispr Flow statistics and metrics card
+```
 
-<!-- Work in progress: docs(readme): add notes on reproducible code signing with local certificate -->
+---
+
+<div align="center">
+
+<!-- Work in progress: docs(readme): introduce comprehensive Documentation index table -->
