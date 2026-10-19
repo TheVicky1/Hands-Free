@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add dynamic contributor badge and contrib.rocks integration -->
+<!-- Milestone update: docs(readme): add acknowledgments to Wispr Flow and macOS Accessibility teams -->
