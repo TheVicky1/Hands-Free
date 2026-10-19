@@ -295,5 +295,11 @@ Hands-Free/
 
 | Layer | Technologies | Role & Implementation |
 |---|---|---|
+| **Native macOS App** | Swift 5.9, AppKit, Quartz | Daemon lifecycle, `CGEvent` keystroke/click synthesis, menu bar |
+| **Accessibility Engine** | Apple Accessibility API (`AXUIElement`) | Screen coordinate targeting, window bounds, UI element inspection |
+| **Speech Processing** | Wispr Flow + Apple `Speech.framework` | Fast speech-to-text dictation + local "Pilot" wake word recognition |
+| **Pattern Matcher** | Swift & TypeScript (Dual Parity) | Sub-2ms deterministic rule resolution, chain splitting, synonym normalization |
+| **Web Frontend** | React 19.2, TypeScript 5.9, Vite 6 | Component architecture, virtual desktop simulation, interactive try demo |
+| **Styling & Design** | Tailwind CSS v4, Framer Motion | Tokenized obsidian/paper color system, fluid spring physics, reduced-motion |
 
-<!-- Work in progress: docs(readme): link setup.md with detailed description and target audience -->
+<!-- Work in progress: docs(readme): link demo.md timed presentation walkthrough -->
