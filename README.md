@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add Good First Issue navigation badges -->
+<!-- Milestone update: docs(readme): introduce Community & Contributors section -->
