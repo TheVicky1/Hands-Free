@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add beginner-friendly issue labeling taxonomy -->
+<!-- Milestone update: docs(readme): add Good First Issue navigation badges -->
