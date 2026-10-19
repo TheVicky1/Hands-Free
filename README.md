@@ -290,5 +290,10 @@ Hands-Free/
 ---
 
 <div align="center">
+  <h2>Technology Stack</h2>
+</div>
 
-<!-- Work in progress: docs(readme): introduce comprehensive Documentation index table -->
+| Layer | Technologies | Role & Implementation |
+|---|---|---|
+
+<!-- Work in progress: docs(readme): link setup.md with detailed description and target audience -->
