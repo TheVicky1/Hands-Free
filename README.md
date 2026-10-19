@@ -322,5 +322,11 @@ Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ support
 | **Developer Tools** | `"Pilot, new terminal tab"` | Dispatches `Cmd+T` in active terminal / VS Code session |
 | **AI Assistants** | `"Pilot, ask Claude how do I invert a binary tree"` | Focuses Claude.app and types prompt directly into input |
 | **Media & Volume** | `"Pilot, volume up"` / `"Pilot, pause music"` | Dispatches macOS hardware media keys without bringing app to front |
+| **File Management** | `"Pilot, upload the screenshot"` | Opens picker, navigates via `Cmd+Shift+G`, selects latest screenshot |
+| **Compound Chains** | `"Pilot, open Chrome, new tab, and search for tailwind"` | Executes three atomic actions sequentially with 140ms intervals |
 
-<!-- Work in progress: docs(readme): link commands.json authoritative command definitions -->
+---
+
+<div align="center">
+
+<!-- Work in progress: docs(readme): link export-stats.mjs usage metrics documentation -->
