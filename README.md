@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add License section detailing MIT open-source terms -->
+<!-- Milestone update: docs(readme): add footer tagline and back-to-top navigation link -->
