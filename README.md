@@ -328,5 +328,10 @@ Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ support
 ---
 
 <div align="center">
+  <h2>Documentation</h2>
+</div>
 
-<!-- Work in progress: docs(readme): link export-stats.mjs usage metrics documentation -->
+| Document | Focus & Content |
+|---|---|
+
+<!-- Work in progress: docs(readme): introduce Open Source & Contributing section -->
