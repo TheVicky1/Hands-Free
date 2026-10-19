@@ -344,5 +344,10 @@ Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ support
 ---
 
 <div align="center">
+  <h2>Contributing</h2>
+</div>
 
-<!-- Work in progress: docs(readme): detail step-by-step fork and clone contribution workflow -->
+We welcome contributions from developers, accessibility researchers, and voice computing enthusiasts!
+
+
+<!-- Work in progress: docs(readme): document local branch naming conventions and standards -->
