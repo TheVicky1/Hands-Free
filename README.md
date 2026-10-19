@@ -333,5 +333,11 @@ Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ support
 
 | Document | Focus & Content |
 |---|---|
+| 📖 [**Setup & Permissions**](docs/setup.md) | Step-by-step macOS Accessibility permissions, Wispr dictionary, and initial testing |
+| 🎬 [**Demo Presentation Script**](docs/demo.md) | Timed 2-minute live demo script utilizing verified BrainCheck commands |
+| 📝 [**Build Progress Log**](docs/progress.md) | Complete reverse-chronological development log documenting engineering milestones |
+| 📐 [**Plan & Architecture Review**](docs/plan-review.md) | Technical investigation into Wispr event taps, SPM manifest selection, and tradeoffs |
+| 🎨 [**Design System Specs**](web/DESIGN.md) | Obsidian/paper color tokens, Fraunces typography rules, and spring animation parameters |
+| 📋 [**Command Inventory**](commands/commands.json) | Complete JSON schema of all 84+ voice commands, aliases, macros, and fillers |
 
-<!-- Work in progress: docs(readme): introduce Open Source & Contributing section -->
+<!-- Work in progress: docs(readme): author Contributor Code of Conduct and culture guidelines -->
