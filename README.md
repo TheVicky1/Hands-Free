@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): refine Markdown badge alignments and contrast colors -->
+<!-- Milestone update: docs(readme): format callout quotes and operational highlights -->
