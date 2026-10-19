@@ -376,5 +376,32 @@ We welcome contributions from developers, accessibility researchers, and voice c
   <h2>Contributors & Community</h2>
 </div>
 
+<div align="center">
 
-<!-- Work in progress: docs(readme): add guidelines for reporting accessibility permission issues -->
+[![Contributors](https://img.shields.io/github/contributors/TheVicky1/Hands-Free?style=for-the-badge&color=FFB02E)](https://github.com/TheVicky1/Hands-Free/graphs/contributors)
+
+[![Hands-Free Contributors](https://contrib.rocks/image?repo=TheVicky1/Hands-Free)](https://github.com/TheVicky1/Hands-Free/graphs/contributors)
+
+*A sincere thank you to everyone driving frictionless, hands-free computing forward.*
+
+</div>
+
+---
+
+<div align="center">
+  <h2>License</h2>
+</div>
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+**Speak. Execute. Repeat.**
+
+[▲ Back to top](#top)
+
+</div>
+
+<!-- Milestone update: docs(readme): add beginner-friendly issue labeling taxonomy -->
