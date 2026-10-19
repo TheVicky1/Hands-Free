@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): clarify Vercel production deployment build command -->
+<!-- Milestone update: docs(readme): document environment variables and local overrides -->
