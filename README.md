@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): verify all internal anchor links and section references -->
+<!-- Milestone update: docs(readme): add copy-paste friendly shell snippets for macOS installation -->
