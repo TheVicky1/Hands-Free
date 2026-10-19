@@ -339,5 +339,10 @@ Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ support
 | 📐 [**Plan & Architecture Review**](docs/plan-review.md) | Technical investigation into Wispr event taps, SPM manifest selection, and tradeoffs |
 | 🎨 [**Design System Specs**](web/DESIGN.md) | Obsidian/paper color tokens, Fraunces typography rules, and spring animation parameters |
 | 📋 [**Command Inventory**](commands/commands.json) | Complete JSON schema of all 84+ voice commands, aliases, macros, and fillers |
+| 📊 [**Metrics Exporter**](scripts/export-stats.mjs) | Automated extraction script for generating live usage statistics |
 
-<!-- Work in progress: docs(readme): author Contributor Code of Conduct and culture guidelines -->
+---
+
+<div align="center">
+
+<!-- Work in progress: docs(readme): detail step-by-step fork and clone contribution workflow -->
