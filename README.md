@@ -366,5 +366,10 @@ We welcome contributions from developers, accessibility researchers, and voice c
    - For web simulator: Verify changes pass `npm test` and `npx playwright test`.
 5. **Commit with Conventional Messages**:
    ```bash
+   git commit -m "feat(commands): add voice shortcut for Discord mute"
+   ```
+6. **Submit a Pull Request**: Push your branch and open a PR against `main`.
 
-<!-- Work in progress: docs(readme): add guidelines for proposing new voice commands -->
+---
+
+<!-- Work in progress: docs(readme): add guidelines for contributing to web simulator desktop -->
