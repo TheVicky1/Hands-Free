@@ -360,5 +360,11 @@ We welcome contributions from developers, accessibility researchers, and voice c
 3. **Create a Feature Branch**:
    ```bash
    git checkout -b feat/new-voice-command
+   ```
+4. **Implement & Test**:
+   - For native commands: Add definitions to `commands/commands.json` and verify with `swift run BrainCheck`.
+   - For web simulator: Verify changes pass `npm test` and `npx playwright test`.
+5. **Commit with Conventional Messages**:
+   ```bash
 
-<!-- Work in progress: docs(readme): document Pull Request checklist and review turnaround -->
+<!-- Work in progress: docs(readme): add guidelines for proposing new voice commands -->
