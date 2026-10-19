@@ -372,4 +372,9 @@ We welcome contributions from developers, accessibility researchers, and voice c
 
 ---
 
-<!-- Work in progress: docs(readme): add guidelines for contributing to web simulator desktop -->
+<div align="center">
+  <h2>Contributors & Community</h2>
+</div>
+
+
+<!-- Work in progress: docs(readme): add guidelines for reporting accessibility permission issues -->
