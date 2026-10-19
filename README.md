@@ -301,5 +301,10 @@ Hands-Free/
 | **Pattern Matcher** | Swift & TypeScript (Dual Parity) | Sub-2ms deterministic rule resolution, chain splitting, synonym normalization |
 | **Web Frontend** | React 19.2, TypeScript 5.9, Vite 6 | Component architecture, virtual desktop simulation, interactive try demo |
 | **Styling & Design** | Tailwind CSS v4, Framer Motion | Tokenized obsidian/paper color system, fluid spring physics, reduced-motion |
+| **Testing & Quality** | Swift BrainCheck, Vitest, Playwright | Native benchmarking, matcher unit tests, browser E2E integration tests |
+| **Deployment** | Vercel Serverless Hosting | High-speed global edge distribution for web simulation and documentation |
 
-<!-- Work in progress: docs(readme): link demo.md timed presentation walkthrough -->
+---
+
+
+<!-- Work in progress: docs(readme): link progress.md build log and commit correlation -->
