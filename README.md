@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document environment variables and local overrides -->
+<!-- Milestone update: docs(readme): add troubleshooting section for Wispr keyboard shortcuts -->
