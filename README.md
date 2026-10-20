@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document export-stats script and Wispr Flow log parsing -->
+<!-- Milestone update: docs(readme): add privacy and security assurance statement -->
