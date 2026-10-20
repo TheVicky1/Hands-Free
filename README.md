@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document dynamic OpenGraph card generator script -->
+<!-- Milestone update: docs(readme): document app icon generation and icns bundle pipeline -->
