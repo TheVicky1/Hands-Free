@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document sound effects and audio feedback implementation -->
+<!-- Milestone update: docs(readme): document theme switcher localStorage persistence logic -->
