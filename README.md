@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document automatic Retina screenshot downsampling logic -->
+<!-- Milestone update: docs(readme): polish ASCII art and typography in documentation links -->
