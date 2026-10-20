@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): expand About section with real-world accessibility metrics -->
+<!-- Milestone update: docs(readme): add Wispr Flow 98.7% accuracy benchmarks note -->
