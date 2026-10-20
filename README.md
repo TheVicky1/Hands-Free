@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add privacy and security assurance statement -->
+<!-- Milestone update: docs(readme): confirm zero external telemetry and zero data leakage -->
