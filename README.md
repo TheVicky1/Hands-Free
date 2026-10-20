@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document slash key command bar quick focus mechanism -->
+<!-- Milestone update: docs(readme): document sound effects and audio feedback implementation -->
