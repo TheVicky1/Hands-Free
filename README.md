@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): fine-tune Markdown table alignments and headers -->
+<!-- Milestone update: docs(readme): polish Mermaid flowchart subgraphs and node styling -->
