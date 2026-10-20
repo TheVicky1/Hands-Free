@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document app icon generation and icns bundle pipeline -->
+<!-- Milestone update: docs(readme): document export-stats script and Wispr Flow log parsing -->
