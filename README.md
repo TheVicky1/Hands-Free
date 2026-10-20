@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add keyboard shortcut cheat sheet for web simulator -->
+<!-- Milestone update: docs(readme): document slash key command bar quick focus mechanism -->
