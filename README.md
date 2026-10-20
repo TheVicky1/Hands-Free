@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): ensure consistent capitalization and trademark usage -->
+<!-- Milestone update: docs(readme): add final visual polish to header monogram logo -->
