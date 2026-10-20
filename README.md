@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document voice macro expansions for screenshot deletion -->
+<!-- Milestone update: docs(readme): document automatic Retina screenshot downsampling logic -->
