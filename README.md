@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add Vercel deployment badge and live status indicator -->
+<!-- Milestone update: docs(readme): add Swift Package Manager version badge -->
