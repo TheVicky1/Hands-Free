@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): expand dual-architecture comparison table -->
+<!-- Milestone update: docs(readme): enrich native vs simulated feature parity checklist -->
