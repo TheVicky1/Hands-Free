@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): refine command examples in table with real phrases -->
+<!-- Milestone update: docs(readme): add examples of complex nested command chains -->
