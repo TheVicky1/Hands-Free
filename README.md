@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): verify absence of forbidden marketing buzzwords -->
+<!-- Milestone update: docs(readme): polish first-person maker voice across introduction -->
