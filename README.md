@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): harmonize heading hierarchy and div alignment tags -->
+<!-- Milestone update: docs(readme): ensure mobile responsive layout for tables and code blocks -->
