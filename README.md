@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): document virtual filesystem and mock files schema -->
+<!-- Milestone update: docs(readme): document virtual browser mock pages schema -->
