@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): add troubleshooting section for Vite development port conflicts -->
+<!-- Milestone update: docs(readme): expand About section with real-world accessibility metrics -->
