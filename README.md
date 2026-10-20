@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): detail 1.4ms Brain matching latency test methodology -->
+<!-- Milestone update: docs(readme): expand dual-architecture comparison table -->
