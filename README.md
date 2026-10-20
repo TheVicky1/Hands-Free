@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): verify accessibility contrast for all embedded links -->
+<!-- Milestone update: docs(readme): perform final end-to-end lint and link integrity audit -->
