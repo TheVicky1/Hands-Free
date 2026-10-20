@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): confirm zero external telemetry and zero data leakage -->
+<!-- Milestone update: docs(readme): verify all shields.io badge URLs and parameters -->
