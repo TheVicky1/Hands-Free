@@ -404,4 +404,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- Milestone update: docs(readme): verify all shields.io badge URLs and parameters -->
+<!-- Milestone update: docs(readme): add Vercel deployment badge and live status indicator -->
