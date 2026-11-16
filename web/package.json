@@ -1,7 +1,7 @@
 {
-  "name": "nohandspilot-web",
+  "name": "hands-free-web",
   "version": "1.0.0",
-  "description": "Fast, deterministic voice-controlled macOS assistant & interactive web simulation. Wispr Flow is the ears, Pilot is the hands.",
+  "description": "Fast, deterministic voice-controlled macOS assistant & interactive web simulation. Wispr Flow is the ears, Hands Free is the hands.",
   "private": true,
   "type": "module",
   "scripts": {

@@ -26,7 +26,7 @@ export function Landing() {
         <a href="/" className="flex shrink-0 items-center gap-2.5 rounded-sm">
           <img src="/favicon.svg" alt="" width={28} height={28} className="size-7" />
           <span className="whitespace-nowrap font-display text-[1.1875rem] tracking-[-0.01em]">
-            No Hands Pilot
+            Hands Free
           </span>
         </a>
         <nav aria-label="Site" className="flex items-center gap-1 text-small">

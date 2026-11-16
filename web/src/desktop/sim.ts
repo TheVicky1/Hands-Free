@@ -808,7 +808,7 @@ export function clickables(d: Desk, w: Win): Clickable[] {
       return [];
   }
 }
-const REPO_URL = 'https://github.com/jsuryacodes/nohandspilot';
+const REPO_URL = 'https://github.com/TheVicky1/Hands-Free';
 
 /** Presses something by mouse: the same effect as saying "click" on it, without the HUD. */
 export function press(d: Desk, id: string): { desk: Desk; link?: string } {

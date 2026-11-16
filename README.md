@@ -2,16 +2,16 @@
 
 <div align="center">
 
-<img src="./web/public/favicon.svg" alt="Hands-Free Pilot Logo" width="88" height="88" />
+<img src="./web/public/favicon.svg" alt="Hands Free Logo" width="88" height="88" />
 
-# Hands-Free - Voice-Controlled macOS Assistant & Web Simulation
+# Hands Free - Voice-Controlled macOS Assistant & Web Simulation
 
 **A High-Performance System for Voice-Driven Computing.**  
 *Turn Natural Speech Into Instant, Deterministic Desktop Action.*
 
 <br />
 
-[![Live App](https://img.shields.io/badge/Live_Demo-nohandspilot.vercel.app-000000.svg?style=for-the-badge&logo=vercel&logoColor=white&color=000000)](https://nohandspilot.vercel.app)
+[![Live App](https://img.shields.io/badge/Live_Demo-handsfree.vercel.app-000000.svg?style=for-the-badge&logo=vercel&logoColor=white&color=000000)](https://handsfree.vercel.app)
 [![Video Walkthrough](https://img.shields.io/badge/Video_Demo-YouTube_svUKJ5K3ZRI-FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/svUKJ5K3ZRI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-d4af37.svg?style=for-the-badge)](LICENSE)
 [![macOS 14+](https://img.shields.io/badge/macOS-14+_Sonoma_%26_Sequoia-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://apple.com/macos)
@@ -25,12 +25,12 @@
 
 <br />
 
-> 🌐 **Live Web Simulator**: Experience Hands-Free Pilot live in your browser at **[https://nohandspilot.vercel.app](https://nohandspilot.vercel.app)**  
+> 🌐 **Live Web Simulator**: Experience Hands Free live in your browser at **[https://handsfree.vercel.app](https://handsfree.vercel.app)**  
 > 🎥 **Video Demo & Walkthrough**: Watch the timed demo script running on live macOS at **[YouTube Walkthrough](https://youtu.be/svUKJ5K3ZRI)**
 
 <br />
 
-[Live Demo](https://nohandspilot.vercel.app) · [Video Demo](https://youtu.be/svUKJ5K3ZRI) · [About](#about) · [Foundational Principles](#foundational-principles) · [Quick Start](#quick-start) · [Core Features](#core-features) · [Visual Identity](#visual-identity--design-philosophy) · [Architecture](#architecture) · [Project Structure](#project-structure) · [Supported Commands](#supported-voice-commands) · [Documentation](#documentation) · [Contributing](#contributing) · [License](#license)
+[Live Demo](https://handsfree.vercel.app) · [Video Demo](https://youtu.be/svUKJ5K3ZRI) · [About](#about) · [Foundational Principles](#foundational-principles) · [Quick Start](#quick-start) · [Core Features](#core-features) · [Visual Identity](#visual-identity--design-philosophy) · [Architecture](#architecture) · [Project Structure](#project-structure) · [Supported Commands](#supported-voice-commands) · [Documentation](#documentation) · [Contributing](#contributing) · [License](#license)
 
 </div>
 
@@ -42,7 +42,7 @@
 
 Most voice assistants suffer from **conversational drag**—they ask clarifying questions, introduce artificial latency, hallucinate non-deterministic actions, or require round-tripping through cloud AI models just to switch a window or click a button. Meanwhile, legacy accessibility software often relies on clunky numbered grids or sluggish speech engines that fail to keep pace with modern developer workflows.
 
-**Hands-Free (Pilot)** is an open-source, dual-layer system designed for effortless, high-speed, voice-driven computing:
+**Hands Free (Pilot)** is an open-source, dual-layer system designed for effortless, high-speed, voice-driven computing:
 1. **A Native macOS Menu-Bar Daemon** written in **Swift 5.9** that intercepts speech dictation from Wispr Flow via low-level `CGEvent` taps, resolves commands deterministically in under 2 ms using `PilotBrain`, and synthesizes native keystrokes, clicks, window focus, and screen navigation through Apple Accessibility APIs.
 2. **An Interactive Web Desktop Simulator** built with **React 19**, **TypeScript 5.9**, **Tailwind CSS v4**, **Vite**, and **Framer Motion** that runs the exact same matching engine in-browser, offering a sandboxed virtual macOS desktop environment to test voice commands and shortcuts before running them natively.
 
@@ -143,7 +143,7 @@ cd web && npm run build
 - **`Hands.swift`**: Synthesizes hardware-level keyboard events, unicode character streams, smooth cursor trajectories, left/right clicks, and targeted scroll events using Quartz `CGEvent`. Focuses applications and waits for frontmost confirmation before typing.
 - **`Screen.swift`**: Queries macOS Display Services and `AXUIElement` accessibility hierarchies to locate window bounds, controls, file dialogs, and button coordinates.
 - **`Taps.swift`**: Hooks into macOS event taps at the session level to catch Wispr Flow pastes (`com.electron.wispr-flow`), inspect clipboard contents, match voice commands, and drop unwanted text cleanly.
-- **`WakeWord.swift`**: Continuously listens for the "Pilot" wake word using Apple's on-device `SFSpeechRecognizer`. Employs smart partial-transcript guards to prevent false wakes on phrases like "No Hands Pilot".
+- **`WakeWord.swift`**: Continuously listens for the "Pilot" wake word using Apple's on-device `SFSpeechRecognizer`. Employs smart partial-transcript guards to prevent false wakes on phrases like "Hands Free".
 - **`UI.swift`**: Houses the custom menu-bar status icon (airplane), dark/light appearance coordinator, floating HUD status toast with animation physics, and the "What can I say?" command cheat sheet window.
 - **`main.swift`**: Coordinates application lifecycle, registers the global **`Control+Option+P`** shortcut for direct keyboard input, and maintains the daily usage count.
 
@@ -165,7 +165,7 @@ cd web && npm run build
   <h2>Visual Identity & Design Philosophy</h2>
 </div>
 
-Following [`web/DESIGN.md`](web/DESIGN.md), Hands-Free embodies a calm, precise, and cinematic aesthetic:
+Following [`web/DESIGN.md`](web/DESIGN.md), Hands Free embodies a calm, precise, and cinematic aesthetic:
 - **Palette**: Deep near-black ink (`#08090B`) paired with warm paper-white (`#F2EDE4`).
 - **The Signal**: A singular cockpit caution amber (`#FFB02E` in dark mode, `#A85700` in light mode). The amber signal is reserved strictly for moments when Pilot is actively hearing or executing a command.
 - **Typography**:
@@ -310,7 +310,7 @@ Hands-Free/
   <h2>Supported Voice Commands</h2>
 </div>
 
-Hands-Free ships with **84+ out-of-the-box voice commands** across **17+ supported applications**, documented in [`commands/commands.json`](commands/commands.json):
+Hands Free ships with **84+ out-of-the-box voice commands** across **17+ supported applications**, documented in [`commands/commands.json`](commands/commands.json):
 
 | Category | Example Voice Phrase | Triggered Action |
 |---|---|---|
@@ -380,7 +380,7 @@ We welcome contributions from developers, accessibility researchers, and voice c
 
 [![Contributors](https://img.shields.io/github/contributors/TheVicky1/Hands-Free?style=for-the-badge&color=FFB02E)](https://github.com/TheVicky1/Hands-Free/graphs/contributors)
 
-[![Hands-Free Contributors](https://contrib.rocks/image?repo=TheVicky1/Hands-Free)](https://github.com/TheVicky1/Hands-Free/graphs/contributors)
+[![Hands Free Contributors](https://contrib.rocks/image?repo=TheVicky1/Hands-Free)](https://github.com/TheVicky1/Hands-Free/graphs/contributors)
 
 *A sincere thank you to everyone driving frictionless, hands-free computing forward.*
 

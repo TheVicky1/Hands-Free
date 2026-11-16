@@ -11,7 +11,7 @@ export function Demo() {
         {playing ? (
           <iframe
             src={`https://www.youtube-nocookie.com/embed/${DEMO_VIDEO_ID}?autoplay=1&rel=0`}
-            title="No Hands Pilot demo"
+            title="Hands Free demo"
             allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
             className="absolute inset-0 size-full"
           />

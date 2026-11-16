@@ -932,7 +932,7 @@ export function PilotBody({ d, press }: Ctx) {
       <div className="flex items-center gap-4">
         <AppIcon app="NoHandsPilot" className="size-14" />
         <div>
-          <p className="text-[20px] font-bold">No Hands Pilot</p>
+          <p className="text-[20px] font-bold">Hands Free</p>
           <p className="text-os-text-2">
             Say “Pilot, …” with Wispr Flow and your Mac does it. A menu-bar app for macOS 13 or
             later.

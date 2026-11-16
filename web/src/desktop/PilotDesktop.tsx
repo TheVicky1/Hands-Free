@@ -85,7 +85,7 @@ const TITLES: Partial<Record<Win, string>> = {
   Terminal: 'Terminal — zsh',
   Music: 'Music',
   'System Settings': 'System Settings',
-  NoHandsPilot: 'No Hands Pilot',
+  NoHandsPilot: 'Hands Free',
   Help: 'What can I say?',
 };
 

@@ -14,7 +14,7 @@ export function Problem() {
           <p>
             On 17 October I skidded off my scooter. After that I couldn’t type and could barely use
             the trackpad. Wispr Flow let me write by voice, but I still couldn’t open apps, switch
-            tabs or click anything. So I built NoHandsPilot.
+            tabs or click anything. So I built Hands Free.
           </p>
           <p>
             Pilot is the other half. You say the command the way you already dictate, and the Mac

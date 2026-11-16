@@ -39,7 +39,7 @@ export interface Page {
 }
 
 export const NEW_TAB = 'chrome://newtab';
-export const REPO = 'https://github.com/jsuryacodes/nohandspilot';
+export const REPO = 'https://github.com/TheVicky1/Hands-Free';
 const enc = encodeURIComponent;
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
@@ -212,11 +212,11 @@ export function page(url: string): Page {
       items: [...ytHeader, ...vs.map((v) => ({ name: v.title, to: watch(v.title, 0) }))],
     };
   }
-  if (host === 'github.com' && u.pathname.replace(/\/$/, '') === '/jsuryacodes/nohandspilot') {
+  if (host === 'github.com' && (u.pathname.replace(/\/$/, '') === '/TheVicky1/Hands-Free' || u.pathname.replace(/\/$/, '') === '/jsuryacodes/nohandspilot')) {
     return {
       ...base,
       kind: 'repo',
-      title: 'jsuryacodes/nohandspilot',
+      title: 'TheVicky1/Hands-Free',
       host,
       length: 3,
       items: [
@@ -235,6 +235,7 @@ export function page(url: string): Page {
       length: 1,
       items: [
         { name: 'GitHub', to: 'https://github.com' },
+        { name: 'TheVicky1/Hands-Free', to: REPO },
         { name: 'jsuryacodes/nohandspilot', to: REPO },
       ],
     };
