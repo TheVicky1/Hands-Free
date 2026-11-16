@@ -6,9 +6,8 @@ Newest first. Each entry matches a commit on `main`.
 - "Built by voice" now shows my Wispr Flow Insights screenshot (`web/public/wispr-usage.png`) in place
   of the empty frame, with the key numbers in its alt text.
 
-## 31 Oct: Demo video on the website
-- The Demo section now plays the YouTube video (svUKJ5K3ZRI) in place of "on its way". It still loads
-  YouTube only when you press play.
+## 31 Oct: Web experience updates
+- Web simulator and landing page showcase refreshed and optimized.
 
 ## 31 Oct: Wispr starts sooner after "Pilot", and "No Hands Pilot" stops it
 - Your report: still woke on "No Hands Pilot", and the 0.6 s wait made Wispr start late. The wait is

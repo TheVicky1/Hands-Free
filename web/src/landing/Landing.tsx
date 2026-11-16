@@ -2,7 +2,7 @@ import { GITHUB_URL, LICENSE_URL, PROFILE_URL, RELEASES_URL } from '../config';
 import { PilotDesktop } from '../desktop/PilotDesktop';
 import { day, useStats, type Stats } from '../stats';
 import { ThemeSwitch } from '../ThemeSwitch';
-import { BuiltByVoice, Demo } from './Media';
+import { BuiltByVoice } from './Media';
 import { HERO_SHOW } from './said';
 import { HowItWorks, Problem } from './Story';
 import { Card } from './ui';
@@ -83,7 +83,6 @@ export function Landing() {
 
         <Problem />
         <HowItWorks stats={stats} />
-        <Demo />
         <Usage stats={stats} />
         <BuiltByVoice />
         <GetIt />
@@ -176,7 +175,7 @@ function Footer() {
       <div className="mx-auto flex max-w-[1200px] flex-col gap-6 px-5 py-10 text-small text-fg-3 md:flex-row md:items-center md:justify-between md:px-8">
         <div className="flex items-center gap-3">
           <img src="/favicon.svg" alt="" width={24} height={24} className="size-6" />
-          <p>Built for No Hands: The Wispr Challenge. Not affiliated with Wispr.</p>
+          <p>&copy; 2026 Vicky Patel. All rights reserved.</p>
         </div>
         <nav aria-label="Footer" className="flex flex-wrap gap-x-6 gap-y-2">
           <a href={GITHUB_URL} className="hover:text-fg">

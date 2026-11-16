@@ -12,7 +12,6 @@
 <br />
 
 [![Live App](https://img.shields.io/badge/Live_Demo-handsfree.vercel.app-000000.svg?style=for-the-badge&logo=vercel&logoColor=white&color=000000)](https://handsfree.vercel.app)
-[![Video Walkthrough](https://img.shields.io/badge/Video_Demo-YouTube_svUKJ5K3ZRI-FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/svUKJ5K3ZRI)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary_/_All_Rights_Reserved-red.svg?style=for-the-badge)](LICENSE)
 [![macOS 14+](https://img.shields.io/badge/macOS-14+_Sonoma_%26_Sequoia-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://apple.com/macos)
 [![Swift 5.9](https://img.shields.io/badge/Swift-5.9+-F05138.svg?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org)
@@ -25,12 +24,11 @@
 
 <br />
 
-> 🌐 **Live Web Simulator**: Experience Hands Free live in your browser at **[https://handsfree.vercel.app](https://handsfree.vercel.app)**  
-> 🎥 **Video Demo & Walkthrough**: Watch the timed demo script running on live macOS at **[YouTube Walkthrough](https://youtu.be/svUKJ5K3ZRI)**
+> 🌐 **Live Web Simulator**: Experience Hands Free live in your browser at **[https://handsfree.vercel.app](https://handsfree.vercel.app)**
 
 <br />
 
-[Live Demo](https://handsfree.vercel.app) · [Video Demo](https://youtu.be/svUKJ5K3ZRI) · [About](#about) · [Foundational Principles](#foundational-principles) · [Quick Start](#quick-start) · [Core Features](#core-features) · [Visual Identity](#visual-identity--design-philosophy) · [Architecture](#architecture) · [Project Structure](#project-structure) · [Supported Commands](#supported-voice-commands) · [Documentation](#documentation) · [Contributing](#contributing) · [License](#license)
+[Live Demo](https://handsfree.vercel.app) · [About](#about) · [Foundational Principles](#foundational-principles) · [Quick Start](#quick-start) · [Core Features](#core-features) · [Visual Identity](#visual-identity--design-philosophy) · [Architecture](#architecture) · [Project Structure](#project-structure) · [Supported Commands](#supported-voice-commands) · [Documentation](#documentation) · [Contributing](#contributing) · [License](#license)
 
 </div>
 
@@ -283,7 +281,7 @@ Hands-Free/
         └── landing/                # Product landing page components
             ├── Landing.tsx         # Hero section, feature grids, and showcase
             ├── Story.tsx           # Narrative walkthrough of voice computing
-            ├── Media.tsx           # Embedded video demo player
+            ├── Media.tsx           # Wispr Flow usage card showcase component
             └── Usage.tsx           # Wispr Flow statistics and metrics card
 ```
 
