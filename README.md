@@ -13,7 +13,7 @@
 
 [![Live App](https://img.shields.io/badge/Live_Demo-handsfree.vercel.app-000000.svg?style=for-the-badge&logo=vercel&logoColor=white&color=000000)](https://handsfree.vercel.app)
 [![Video Walkthrough](https://img.shields.io/badge/Video_Demo-YouTube_svUKJ5K3ZRI-FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/svUKJ5K3ZRI)
-[![License: MIT](https://img.shields.io/badge/License-MIT-d4af37.svg?style=for-the-badge)](LICENSE)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary_/_All_Rights_Reserved-red.svg?style=for-the-badge)](LICENSE)
 [![macOS 14+](https://img.shields.io/badge/macOS-14+_Sonoma_%26_Sequoia-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://apple.com/macos)
 [![Swift 5.9](https://img.shields.io/badge/Swift-5.9+-F05138.svg?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org)
 [![React 19](https://img.shields.io/badge/React-19.2-050505.svg?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
@@ -392,7 +392,9 @@ We welcome contributions from developers, accessibility researchers, and voice c
   <h2>License</h2>
 </div>
 
-This project is licensed under the [MIT License](LICENSE).
+Copyright &copy; 2026 Vicky Patel. All rights reserved.
+
+This software, including all source code, algorithms, assets, and documentation, is proprietary. Unauthorized copying, reproduction, distribution, sublicensing, modification, reverse engineering, or commercial exploitation in any form is strictly prohibited under applicable copyright laws. For full terms, see the [LICENSE](LICENSE) file.
 
 ---
 
