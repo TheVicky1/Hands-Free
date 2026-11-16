@@ -90,7 +90,7 @@ export const FINDER: Record<Folder, { name: string; open?: Folder | App }[]> = {
   ],
   Desktop: [{ name: 'demo-script.md' }, { name: 'notes.txt' }],
   Documents: [{ name: 'setup.md' }, { name: 'demo.md' }, { name: 'plan-review.md' }],
-  Downloads: [{ name: 'NoHandsPilot.zip' }],
+  Downloads: [{ name: 'HandsFree.zip' }],
   Applications: APPS.map((a) => ({ name: a, open: a })),
 };
 

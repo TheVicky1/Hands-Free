@@ -5,8 +5,8 @@ import { Brain, type Action, type Config, type Plan } from './brain';
 
 // prettier-ignore
 const profiles: [string, string][] = [
-  ['Jaya', 'Default'], ['College', 'Profile 1'], ['Jaya Surya', 'Profile 2'], ['Work', 'Profile 9'],
-  ['Jaya Surya', 'Default'], ['PENUMATCHA JAYA SURYA', 'Profile 1'], ['Jaya Surya Penumatcha', 'Profile 2'],
+  ['Vicky', 'Default'], ['College', 'Profile 1'], ['Vicky Patel', 'Profile 2'], ['Work', 'Profile 9'],
+  ['Vicky Patel', 'Default'], ['VICKY PATEL', 'Profile 1'], ['Vicky Patel Dev', 'Profile 2'],
 ];
 // prettier-ignore
 const brain = new Brain(
@@ -87,10 +87,10 @@ describe('sentences from the real usage log (28 Oct)', () => {
     typed('hello'),
     keys('enter'),
   ]);
-  check('Pilot, can you switch the Chrome profile to Jaya Surya Penumatcha? ', [
+  check('Pilot, can you switch the Chrome profile to Vicky Patel Dev? ', [
     profile('Profile 2'),
   ]);
-  check('Pilot, can you switch the Chrome profile to Jaya Surya? ', [profile('Profile 2')]);
+  check('Pilot, can you switch the Chrome profile to Vicky Patel? ', [profile('Profile 2')]);
   check('Pilot, can you open a new Chrome tab? ', [chrome, keys('cmd+t')]);
   check('Pilot, open a new Chrome tab. ', [chrome, keys('cmd+t')]);
   check(
@@ -103,7 +103,7 @@ describe('sentences from the real usage log (28 Oct)', () => {
 describe('profiles', () => {
   check('Pilot, switch to my college profile', [profile('Profile 1')]);
   check('Pilot, switch to work profile', [profile('Profile 9')], { app: 'Finder' });
-  check('Pilot, change chrome profile to Jaya', [profile('Default')]);
+  check('Pilot, change chrome profile to Vicky', [profile('Default')]);
 });
 
 describe('fuzzy app names, strict quit', () => {

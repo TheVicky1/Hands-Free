@@ -58,7 +58,7 @@ cat > "$APP/Contents/Info.plist" <<EOF
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>CFBundleIdentifier</key><string>dev.jsurya.pilot</string>
+  <key>CFBundleIdentifier</key><string>com.thevicky1.handsfree</string>
   <key>CFBundleName</key><string>Pilot</string>
   <key>CFBundleDisplayName</key><string>Pilot</string>
   <key>CFBundleExecutable</key><string>Pilot</string>
@@ -77,7 +77,7 @@ cat > "$APP/Contents/Info.plist" <<EOF
 </dict>
 </plist>
 EOF
-codesign --force --sign "$IDENTITY" --keychain "$KEYCHAIN" --identifier dev.jsurya.pilot "$APP"
+codesign --force --sign "$IDENTITY" --keychain "$KEYCHAIN" --identifier com.thevicky1.handsfree "$APP"
 
 # 4. Install and (re)launch.
 pkill -x Pilot 2>/dev/null && sleep 0.5 || true

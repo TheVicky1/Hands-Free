@@ -123,7 +123,7 @@ public final class Brain {
     let installedApps: [String]
     /// Other names apps go by, e.g. ["OBS Studio": "OBS"] (display name → .app file name).
     let appAliases: [String: String]
-    /// Runtime slot values, e.g. ["profile": [("Jaya Surya", "Profile 2"), ...]]. Earlier entries win ties.
+    /// Runtime slot values, e.g. ["profile": [("Vicky Patel", "Profile 2"), ...]]. Earlier entries win ties.
     let slotValues: [String: [(key: String, value: String)]]
     /// Title paths of a running app's enabled menu items, e.g. [["File", "Export as PDF…"]] (rule 8).
     public var menuItems: ((_ app: String) -> [[String]])?

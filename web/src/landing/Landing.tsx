@@ -149,7 +149,7 @@ function GetIt() {
             </a>
           </div>
           <p className="mt-6 text-small text-fg-3">
-            macOS 13 or later · works with Wispr Flow · MIT licensed ·{' '}
+            macOS 13 or later · works with Wispr Flow · Proprietary licensed ·{' '}
             <a href={GITHUB_URL} className="text-fg-2 underline underline-offset-4 hover:text-fg">
               source on GitHub
             </a>
@@ -183,10 +183,10 @@ function Footer() {
             GitHub
           </a>
           <a href={LICENSE_URL} className="hover:text-fg">
-            MIT license
+            License
           </a>
           <a href={PROFILE_URL} className="hover:text-fg">
-            @jsuryacodes
+            @TheVicky1
           </a>
         </nav>
       </div>

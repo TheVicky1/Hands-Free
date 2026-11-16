@@ -406,12 +406,12 @@ function PageView({ p, t, press }: Ctx & { p: Page; t: Tab }) {
             <p className="text-[12px] font-semibold text-os-text-2">Top repositories</p>
             <Hit
               w={W}
-              k="jsuryacodes/nohandspilot"
+              k="TheVicky1/Hands-Free"
               press={press}
               className="mt-3 flex items-center gap-3 rounded-md border border-os-line px-4 py-3 hover:bg-os-hover"
             >
               <AppIcon app="NoHandsPilot" className="size-6" />
-              <span className="font-semibold">jsuryacodes/nohandspilot</span>
+              <span className="font-semibold">TheVicky1/Hands-Free</span>
             </Hit>
           </div>
         </div>
@@ -424,7 +424,7 @@ function PageView({ p, t, press }: Ctx & { p: Page; t: Tab }) {
             <div className="flex flex-wrap items-center gap-3">
               <AppIcon app="NoHandsPilot" className="size-7" />
               <p className="text-[18px]">
-                jsuryacodes / <span className="font-semibold">nohandspilot</span>
+                TheVicky1 / <span className="font-semibold">Hands-Free</span>
               </p>
               <span className="flex-1" />
               <Hit
@@ -989,8 +989,8 @@ export function PilotBody({ d, press }: Ctx) {
           <p>
             Needs macOS 13 or later and the Xcode Command Line Tools (full Xcode isn’t required).
           </p>
-          <pre className="overflow-x-auto font-mono text-[12px] leading-relaxed">{`git clone https://github.com/jsuryacodes/nohandspilot
-cd nohandspilot
+          <pre className="overflow-x-auto font-mono text-[12px] leading-relaxed">{`git clone https://github.com/TheVicky1/Hands-Free
+cd Hands-Free
 app/build.sh                    # builds, signs, installs to ~/Applications, opens it
 cd app && swift run BrainCheck  # the matching self-checks`}</pre>
         </div>

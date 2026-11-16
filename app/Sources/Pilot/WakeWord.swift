@@ -89,14 +89,14 @@ final class WakeWord {
         let config = SFSpeechLanguageModel.Configuration(languageModel: dir.appendingPathComponent("pilot.lm"), vocabulary: dir.appendingPathComponent("pilot.vocab"))
         let start = Date()
         Task {
-            let data = SFCustomLanguageModelData(locale: locale, identifier: "dev.jsurya.pilot", version: "1")
+            let data = SFCustomLanguageModelData(locale: locale, identifier: "com.thevicky1.handsfree", version: "1")
             data.insert(phraseCount: .init(phrase: "Pilot", count: 50))
-            for name in ["No Hands Pilot", "nohandspilot", "nohandspilot dot vercel dot app"] { data.insert(phraseCount: .init(phrase: name, count: 50)) }   // so "No…" isn't heard as "Pilot"
+            for name in ["Hands Free", "handsfree", "handsfree dot vercel dot app"] { data.insert(phraseCount: .init(phrase: name, count: 50)) }   // so "Hands…" isn't heard as "Pilot"
             for s in sentences.dropFirst() { data.insert(phraseCount: .init(phrase: s, count: 10)) }
             do {
                 try await data.export(to: asset)
                 if #available(macOS 26, *) { try await SFSpeechLanguageModel.prepareCustomLanguageModel(for: asset, configuration: config) }
-                else { try await SFSpeechLanguageModel.prepareCustomLanguageModel(for: asset, clientIdentifier: "dev.jsurya.pilot", configuration: config) }
+                else { try await SFSpeechLanguageModel.prepareCustomLanguageModel(for: asset, clientIdentifier: "com.thevicky1.handsfree", configuration: config) }
                 let count = sentences.count
                 DispatchQueue.main.async {
                     let w = WakeWord.shared

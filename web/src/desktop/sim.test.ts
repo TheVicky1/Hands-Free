@@ -114,7 +114,7 @@ describe('Chrome tabs', () => {
     expect(d.chrome.tabs).toHaveLength(2);
   });
   test('a link, then back and forward', () => {
-    const repo = after('open Chrome', 'open GitHub', 'click jsuryacodes/nohandspilot');
+    const repo = after('open Chrome', 'open GitHub', 'click TheVicky1/Hands-Free');
     expect(page(url(repo)).kind).toBe('repo');
     const back = say(repo, 'go back').desk;
     expect(page(url(back)).kind).toBe('github');

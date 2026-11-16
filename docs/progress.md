@@ -154,7 +154,7 @@ Newest first. Each entry matches a commit on `main`.
   Florence + the Machine) — Taylor Swift" in 142 ms`. "play Bohemian Rhapsody on Apple Music" (not in
   the library) → no library match, Apple Music search, the first song's play button: Music's player
   showed "Bohemian Rhapsody" and Pause. The prompt appeared on the first try and was answered with
-  Allow at 23:59 (TCC: dev.jsurya.pilot → com.apple.Music allowed).
+  Allow at 23:59 (TCC: com.thevicky1.handsfree → com.apple.Music allowed).
 - 10 new BrainCheck and Vitest cases; /try says "On your Mac: plays "Florida" from your Music library,
   or the first song Apple Music finds".
 
@@ -266,7 +266,7 @@ Newest first. Each entry matches a commit on `main`.
   wake word; teaching by voice), the demo video slot (`DEMO_VIDEO_ID` in `web/src/config.ts`; until it's
   set the poster says the video is on its way and points to the Mac above), my real usage, the Wispr
   usage card (`web/public/wispr-usage.png`, a dashed frame until it's there), a get-it band with the
-  three install steps, and the footer (not affiliated with Wispr, MIT, @jsuryacodes).
+  three install steps, and the footer (not affiliated with Wispr, License, @TheVicky1).
 - My real usage comes from `stats.json`: commands, how many ran, chains, median match and run times,
   commands per day, how they reached Pilot (Wispr, Pilot's own hearing, the command bar), and the most
   used commands by the phrase you say. Every chart is one series in one neutral ink (the amber stays
@@ -542,7 +542,7 @@ Newest first. Each entry matches a commit on `main`.
   under your home folder (skips ~/Library, hidden folders, node_modules); the toast names the file and
   its folder. Inside VS Code, "open file …" still means VS Code's quick open.
 - Matches whole words, not substrings. Measured: substring matching made "irs notes" match "fdt-3
-  unit-notes(first half).pdf" and took 47 s for "a"; whole words find Jaya_Surya_Resume.pdf for
+  unit-notes(first half).pdf" and took 47 s for "a"; whole words find Vicky_Patel_Resume.pdf for
   "resume" in 52 ms, and every test query took 21–256 ms. Trade-off: "screenshots" won't match
   "Screenshot".
 - Downloads, Documents, Desktop, home folder, Applications open in Finder from any app ("open
@@ -550,7 +550,7 @@ Newest first. Each entry matches a commit on `main`.
 - Settings panes: "open bluetooth / wi-fi / sound / display / battery / notifications / keyboard /
   privacy / accessibility settings". Each URL was opened here and the System Settings window title
   checked (all 9 matched). Non-web links now open in their own app instead of Chrome.
-- Checked through the app: "show nohandspilot in Finder" found it in 38 ms; "open bluetooth
+- Checked through the app: "show Hands-Free in Finder" found it in 38 ms; "open bluetooth
   settings" brought System Settings forward in 122 ms. 121 BrainCheck cases.
 
 ## 28 Oct: Teach Pilot by voice (2)
@@ -645,7 +645,7 @@ Newest first. Each entry matches a commit on `main`.
   `com.electron.wispr-flow.accessibility-mac-app`; "Pilot, open Chrome and search hello" was swallowed
   and ran. Accessibility survived a rebuild (stable signature works).
 - Failures from the real log, all fixed and now in BrainCheck: "open a new Chrome tab" (app named
-  mid-sentence), "can you switch the Chrome profile to Jaya Surya" (no profile support),
+  mid-sentence), "can you switch the Chrome profile to Vicky Patel" (no profile support),
   "open Chrome in a new tab and search hello".
 - Brain v2: app named anywhere in a command, "search X on youtube", sites, URLs, tab numbers
   ("tab three", "last tab"), runtime slot values (Chrome profiles), "Didn't catch … Try …"
@@ -662,7 +662,7 @@ Newest first. Each entry matches a commit on `main`.
 ## 28 Oct: Menu-bar app, Hands, both triggers
 - `app/build.sh`: builds, runs BrainCheck, assembles `Pilot.app`, signs it with a fixed self-signed
   certificate ("Pilot Local Signing", own keychain) and installs to `~/Applications`. The signature
-  requirement is `identifier dev.jsurya.pilot + certificate leaf`, so permissions survive rebuilds.
+  requirement is `identifier com.thevicky1.handsfree + certificate leaf`, so permissions survive rebuilds.
 - Hands (`Hands.swift`): open/switch apps (waits until the app is in front), quit, shortcuts, typing
   (unicode events, works in Chrome's address bar), scroll (moves the pointer into the front window first).
 - Trigger A (`Taps.swift`): session tap + frontmost-app tap catch Cmd+V sent by Wispr only, read the

@@ -212,7 +212,7 @@ export function page(url: string): Page {
       items: [...ytHeader, ...vs.map((v) => ({ name: v.title, to: watch(v.title, 0) }))],
     };
   }
-  if (host === 'github.com' && (u.pathname.replace(/\/$/, '') === '/TheVicky1/Hands-Free' || u.pathname.replace(/\/$/, '') === '/jsuryacodes/nohandspilot')) {
+  if (host === 'github.com' && (u.pathname.replace(/\/$/, '') === '/TheVicky1/Hands-Free' || u.pathname.replace(/\/$/, '') === '/Hands-Free')) {
     return {
       ...base,
       kind: 'repo',
@@ -236,7 +236,6 @@ export function page(url: string): Page {
       items: [
         { name: 'GitHub', to: 'https://github.com' },
         { name: 'TheVicky1/Hands-Free', to: REPO },
-        { name: 'jsuryacodes/nohandspilot', to: REPO },
       ],
     };
   }

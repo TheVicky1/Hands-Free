@@ -3,8 +3,8 @@ import Foundation
 import PilotBrain
 
 let path = CommandLine.arguments.dropFirst().first ?? "../commands/commands.json"
-let profiles: [(key: String, value: String)] = [("Jaya", "Default"), ("College", "Profile 1"), ("Jaya Surya", "Profile 2"), ("Work", "Profile 9"),
-                                                ("Jaya Surya", "Default"), ("PENUMATCHA JAYA SURYA", "Profile 1"), ("Jaya Surya Penumatcha", "Profile 2")]
+let profiles: [(key: String, value: String)] = [("Vicky", "Default"), ("College", "Profile 1"), ("Vicky Patel", "Profile 2"), ("Work", "Profile 9"),
+                                                ("Vicky Patel", "Default"), ("VICKY PATEL", "Profile 1"), ("Vicky Patel Dev", "Profile 2")]
 let brain = try Brain(json: Data(contentsOf: URL(fileURLWithPath: path)),
                       installedApps: ["Google Chrome", "Claude", "Visual Studio Code", "Finder", "Telegram", "WhatsApp", "Safari", "Terminal",
                                       "GitHub Desktop", "YouTube", "ChatGPT", "Spotify", "Music", "Numbers Creator Studio", "OBS", "Time Machine"],
@@ -36,8 +36,8 @@ check("open chrome", trigger: false, [chrome])
 // sentences from the real usage log (28 Oct)
 check("Pilot, open Chrome in a new tab and search \"hello\". ", [chrome, .keys("cmd+t"), .keys("cmd+l"), .type("hello"), .keys("enter")])
 check("Pilot, open Chrome and search hello. ", [chrome, .keys("cmd+l"), .type("hello"), .keys("enter")])
-check("Pilot, can you switch the Chrome profile to Jaya Surya Penumatcha? ", [.chromeProfile("Profile 2")])
-check("Pilot, can you switch the Chrome profile to Jaya Surya? ", [.chromeProfile("Profile 2")])
+check("Pilot, can you switch the Chrome profile to Vicky Patel Dev? ", [.chromeProfile("Profile 2")])
+check("Pilot, can you switch the Chrome profile to Vicky Patel? ", [.chromeProfile("Profile 2")])
 check("Pilot, can you open a new Chrome tab? ", [chrome, .keys("cmd+t")])
 check("Pilot, open a new Chrome tab. ", [chrome, .keys("cmd+t")])
 check("open chrome , open a new tab and search hello", trigger: false, [chrome, .keys("cmd+t"), .keys("cmd+l"), .type("hello"), .keys("enter")])
@@ -45,7 +45,7 @@ check("open chrome , open a new tab and search hello", trigger: false, [chrome, 
 // profiles
 check("Pilot, switch to my college profile", [.chromeProfile("Profile 1")])
 check("Pilot, switch to work profile", app: "Finder", [.chromeProfile("Profile 9")])
-check("Pilot, change chrome profile to Jaya", [.chromeProfile("Default")])
+check("Pilot, change chrome profile to Vicky", [.chromeProfile("Default")])
 
 // fuzzy app names, strict quit
 check("Pilot, switch to telegrm", [.openApp("Telegram")])

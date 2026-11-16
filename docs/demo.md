@@ -21,7 +21,7 @@ every command; Pilot only listens for its name.
 | 1:25 | Terminal (Secure Keyboard Entry on) | "Pilot" … "open VS Code, toggle terminal." Nothing is left at the prompt. Then "Pilot" … "switch back." |
 | 1:30 | The submission form | "Pilot" … "take a screenshot." Then "Pilot" … "click Add images, upload the screenshot." The picker opens, picks it and closes by itself. (To take it back: "Pilot" … "remove the screenshot".) |
 | 1:35–1:50 | Pilot menu → "Today: N commands (M via Wispr)", then the site's usage section | *(voiceover)* "No AI round-trip: the median match in my log is 1.1 milliseconds, offline. I've used it every day since 28 October, and these are the real numbers." |
-| 1:50–2:00 | nohandspilot.vercel.app, then Wispr → Insights → Your usage | *(voiceover)* "Try it in your browser. Built by voice with Wispr, for Wispr." |
+| 1:50–2:00 | handsfree.vercel.app, then Wispr → Insights → Your usage | *(voiceover)* "Try it in your browser. Built by voice with Wispr, for Wispr." |
 
 ## Before recording
 

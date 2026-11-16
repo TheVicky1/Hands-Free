@@ -85,7 +85,7 @@ export type Plan =
   | { kind: 'teach'; phrase?: string; commands: string[] } // rule 1b; no phrase = "teach that" (the last miss)
   | { kind: 'forget'; phrase: string };
 
-/** Runtime slot values, e.g. { profile: [["Jaya Surya", "Profile 2"], ...] }. Earlier entries win ties. */
+/** Runtime slot values, e.g. { profile: [["Vicky Patel", "Profile 2"], ...] }. Earlier entries win ties. */
 export type SlotValues = Record<string, [key: string, value: string][]>;
 
 interface Tok {

@@ -135,7 +135,7 @@ app and whether you use more than one display.
 | Say | Expected |
 |---|---|
 | "Pilot, open file resume" | Your most recently used file with "resume" in its name opens. Toast names it and its folder |
-| "Pilot, open the nohandspilot folder" | That folder opens in Finder |
+| "Pilot, open the Hands-Free folder" | That folder opens in Finder |
 | "Pilot, show demo in Finder" | Finder opens with docs/demo.md selected |
 | "Pilot, open downloads" (from Chrome) | Downloads opens in Finder |
 | "Pilot, open bluetooth settings" | System Settings opens on Bluetooth |
